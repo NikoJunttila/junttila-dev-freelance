@@ -1,0 +1,246 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background: #f6f1e4;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	color: #1a1a1a;
+	overflow-x: clip;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+button {
+	font: inherit;
+}
+
+#site-wrap {
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+@keyframes pulse {
+	0%,
+	100% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.4;
+	}
+}
+
+/* ---- Sticky nav ---- */
+.jd-nav {
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	background: #f6f1e4;
+	border-bottom: 2px solid #1a1a1a;
+}
+
+/* Offset anchor jumps so section headings clear the sticky nav. */
+:where(#services, #work, #about, #process, #testimonials, #blog, #contact, #top) {
+	scroll-margin-top: 96px;
+}
+@media (max-width: 1024px) {
+	:where(#services, #work, #about, #process, #testimonials, #blog, #contact, #top) {
+		scroll-margin-top: 84px;
+	}
+}
+@media (max-width: 640px) {
+	:where(#services, #work, #about, #process, #testimonials, #blog, #contact, #top) {
+		scroll-margin-top: 72px;
+	}
+}
+
+/* ---- Interactive elements ---- */
+.jd-link {
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.jd-nav-link {
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+	transition:
+		transform 0.15s ease,
+		background-color 0.15s ease,
+		border-color 0.15s ease;
+}
+.jd-nav-link:hover {
+	transform: translateY(-2px);
+	background: #a8d5b8 !important;
+	border-color: #1a1a1a !important;
+}
+
+.jd-btn {
+	cursor: pointer;
+	transition:
+		transform 0.15s ease,
+		box-shadow 0.15s ease;
+}
+.jd-btn:hover {
+	transform: translate(-2px, -2px);
+}
+.jd-btn:hover.jd-shadow-ink {
+	box-shadow: 7px 7px 0 #1a1a1a !important;
+}
+.jd-btn:hover.jd-shadow-sun {
+	box-shadow: 5px 5px 0 #f4c95d !important;
+}
+.jd-btn:hover.jd-shadow-paper {
+	box-shadow: 7px 7px 0 #fffcf3 !important;
+}
+.jd-btn:active {
+	transform: translate(1px, 1px);
+}
+
+.jd-text-link {
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+	border-bottom: 2px solid transparent;
+	transition:
+		color 0.15s ease,
+		border-color 0.15s ease;
+}
+.jd-text-link:hover {
+	color: #f08a5d;
+	border-bottom-color: #f08a5d;
+}
+
+.jd-card-hover {
+	transition:
+		transform 0.2s ease,
+		box-shadow 0.2s ease;
+	will-change: transform;
+}
+.jd-card-hover:hover {
+	transform: translate(-2px, -3px) !important;
+	box-shadow: 8px 9px 0 #1a1a1a !important;
+}
+
+/* ---- Responsive section padding ---- */
+.jd-section {
+	padding: 80px 56px;
+}
+@media (max-width: 1024px) {
+	.jd-section {
+		padding: 64px 32px;
+	}
+}
+@media (max-width: 640px) {
+	.jd-section {
+		padding: 48px 20px;
+	}
+}
+
+/* ---- Responsive grids ---- */
+@media (max-width: 1024px) {
+	.jd-grid-4 {
+		grid-template-columns: repeat(2, 1fr) !important;
+	}
+	.jd-grid-3 {
+		grid-template-columns: repeat(2, 1fr) !important;
+	}
+	.jd-hourly-grid {
+		grid-template-columns: 1fr !important;
+	}
+	.jd-hourly-left {
+		border-right: none !important;
+		border-bottom: 2.5px solid #1a1a1a !important;
+	}
+	.jd-hosting-grid {
+		grid-template-columns: 1fr !important;
+	}
+	.jd-about-grid {
+		grid-template-columns: 1fr !important;
+	}
+	.jd-about-portrait {
+		justify-self: center;
+	}
+}
+
+@media (max-width: 640px) {
+	.jd-grid-4,
+	.jd-grid-3,
+	.jd-grid-2 {
+		grid-template-columns: 1fr !important;
+	}
+	.jd-hourly-items {
+		grid-template-columns: 1fr !important;
+	}
+}
+
+/* ---- Fluid typography overrides ---- */
+.jd-hero-h1 {
+	font-size: clamp(44px, 9vw, 112px) !important;
+	line-height: 0.95 !important;
+}
+.jd-section-h2 {
+	font-size: clamp(34px, 5.2vw, 60px) !important;
+}
+.jd-contact-h2 {
+	font-size: clamp(44px, 9vw, 96px) !important;
+}
+
+/* ---- Hide nav links on small viewports ---- */
+@media (max-width: 900px) {
+	.jd-nav-center {
+		display: none !important;
+	}
+}
+
+/* ---- Hide decorative stickers on mobile ---- */
+@media (max-width: 900px) {
+	.jd-hero-stickers {
+		display: none !important;
+	}
+}
+@media (max-width: 1024px) {
+	.jd-about-stickers {
+		display: none !important;
+	}
+}
+
+/* ---- Reduce hero padding on mobile ---- */
+@media (max-width: 1024px) {
+	.jd-hero {
+		padding: 40px 32px 64px !important;
+	}
+}
+@media (max-width: 640px) {
+	.jd-hero {
+		padding: 32px 20px 48px !important;
+	}
+}
+
+/* ---- Reduce nav padding on mobile ---- */
+@media (max-width: 1024px) {
+	.jd-nav-row {
+		padding: 16px 32px !important;
+	}
+}
+@media (max-width: 640px) {
+	.jd-nav-row {
+		padding: 12px 20px !important;
+	}
+	.jd-nav-brand-text {
+		display: none;
+	}
+}

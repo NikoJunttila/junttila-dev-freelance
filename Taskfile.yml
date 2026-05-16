@@ -1,0 +1,64 @@
+version: '3'
+
+tasks:
+  default:
+    desc: List available tasks
+    cmds:
+      - task --list
+    silent: true
+
+  dev:
+    desc: Start Vite dev server
+    cmds:
+      - deno task dev
+
+  dev:open:
+    desc: Start dev server and open in browser
+    cmds:
+      - deno task dev -- --open
+
+  build:
+    desc: Production build
+    cmds:
+      - deno task build
+
+  preview:
+    desc: Preview the production build
+    cmds:
+      - deno task preview
+
+  check:
+    desc: Type-check the project with svelte-check
+    cmds:
+      - deno task check
+
+  check:watch:
+    desc: Type-check in watch mode
+    cmds:
+      - deno task check:watch
+
+  format:
+    desc: Format files with Prettier
+    cmds:
+      - deno task format
+
+  lint:
+    desc: Check formatting with Prettier
+    cmds:
+      - deno task lint
+
+  sync:
+    desc: Regenerate .svelte-kit types
+    cmds:
+      - deno run -A npm:svelte-kit sync
+
+  clean:
+    desc: Remove build artifacts and dependencies
+    cmds:
+      - rm -rf .svelte-kit build dist node_modules
+
+  reinstall:
+    desc: Clean and reinstall dependencies
+    cmds:
+      - task: clean
+      - deno install
