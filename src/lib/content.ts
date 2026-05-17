@@ -123,7 +123,7 @@ export const COPY: Record<Lang, Copy> = {
       title1: 'Nettisivut',
       title2: 'jotka palvelevat sinua.',
       title3: '',
-      body: 'Olen Niko. 6v+ kokemusta web-kehityksestä. Rakennan sivut, kaupat ja työkalut yrittäjille, harrastajille ja arjen ammattilaisille — selkeällä hinnalla, ihmisten kielellä.',
+      body: 'Olen Niko, 6v+ kokemusta web-kehityksestä. Rakennan sivut, verkkokaupat ja työkalut yrittäjille, harrastajille ja arjen ammattilaisille — selkeällä hinnalla, ihmisten kielellä.',
       cta1: 'Pyydä tarjous',
       cta2: 'Katso työt',
       meta: ['6+ v. kokemusta', 'Suomeksi & englanniksi', 'Hosting alk. 10€/kk']

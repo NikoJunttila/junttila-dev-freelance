@@ -20,6 +20,7 @@
 	const counter = $derived(`${index + 1} / ${total}`);
 
 	let tick = $state(0);
+	let cardEl = $state<HTMLDivElement | null>(null);
 
 	function go(delta: number) {
 		index = (index + delta + total) % total;
@@ -29,6 +30,13 @@
 	function jump(i: number) {
 		index = i;
 		tick++;
+	}
+
+	function jumpAndScroll(i: number) {
+		jump(i);
+		if (!browser || !cardEl) return;
+		const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		cardEl.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
 	}
 
 	function onKey(e: KeyboardEvent) {
@@ -71,6 +79,7 @@
 		aria-label={t.workH}
 	>
 		<div
+			bind:this={cardEl}
 			class="jd-work-card"
 			style:border-radius="22px"
 			style:overflow="hidden"
@@ -253,7 +262,7 @@
 				<button
 					class="jd-thumb"
 					class:active={i === index}
-					onclick={() => jump(i)}
+					onclick={() => jumpAndScroll(i)}
 					aria-label={item.name}
 					aria-current={i === index}
 				>
