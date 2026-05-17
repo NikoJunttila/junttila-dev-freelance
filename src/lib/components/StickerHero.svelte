@@ -22,7 +22,7 @@
 		style:top="60px"
 		style:transform="rotate(8deg)"
 	>
-		<FloatSticker color={th.coral} text="500€" />
+		<FloatSticker color={th.coral} text="200€" />
 	</div>
 	<div
 		class="jd-hero-stickers"
@@ -31,7 +31,7 @@
 		style:top="200px"
 		style:transform="rotate(-6deg)"
 	>
-		<FloatSticker color={th.mint} text="200€" />
+		<FloatSticker color={th.mint} text="500€" />
 	</div>
 	<div
 		class="jd-hero-stickers"

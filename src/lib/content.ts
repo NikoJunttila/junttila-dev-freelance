@@ -228,7 +228,7 @@ export const COPY: Record<Lang, Copy> = {
       {
         n: '03',
         t: 'Rakentaminen',
-        d: 'Käytän AI-avusteista kehitystä, joten näet valmiin sivuston jo aikaisin. Sinä kommentoit, minä viilaan. Ei yllätyksiä lopussa.'
+        d: 'Näet sivuston toimivan version jo varhain. Sinä kommentoit, minä viilaan matkan varrella. Ei yllätyksiä lopussa.'
       },
       {
         n: '04',
@@ -441,7 +441,7 @@ export const COPY: Record<Lang, Copy> = {
       {
         n: '03',
         t: 'Building',
-        d: 'I use AI-assisted development, so you see a working version of the whole site early on. You comment, I refine. No end-of-project surprises.'
+        d: 'You see a working version of the site early on. You comment, I refine along the way. No end-of-project surprises.'
       },
       {
         n: '04',
