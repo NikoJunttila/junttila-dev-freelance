@@ -1,0 +1,371 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - link "n junttila.dev" [ref=e7] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e8]: "n"
+        - generic [ref=e9]: junttila.dev
+      - generic [ref=e10]:
+        - link "Services" [ref=e449] [cursor=pointer]:
+          - /url: "#services"
+        - link "Work" [ref=e450] [cursor=pointer]:
+          - /url: "#work"
+        - link "About" [ref=e451] [cursor=pointer]:
+          - /url: "#about"
+        - link "Process" [ref=e452] [cursor=pointer]:
+          - /url: "#process"
+        - link "Blog" [ref=e453] [cursor=pointer]:
+          - /url: "#blog"
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - button "fi" [ref=e18] [cursor=pointer]
+          - button "en" [active] [ref=e19] [cursor=pointer]
+        - link "Contact →" [ref=e454] [cursor=pointer]:
+          - /url: "#contact"
+  - generic [ref=e21]:
+    - generic [ref=e23]: 500€
+    - generic [ref=e25]: 200€
+    - generic [ref=e27]: hei!
+    - generic [ref=e28]: Freelance developer · Kokkola / remote
+    - heading "Websites built for you." [level=1] [ref=e455]:
+      - text: Websites
+      - generic [ref=e31]: built for you.
+    - paragraph [ref=e32]: I'm Niko. Six-plus years of web development. I build sites, stores and tools for small businesses, hobbyists and everyday pros — at honest prices, in plain language.
+    - generic [ref=e33]:
+      - link "Get a quote →" [ref=e456] [cursor=pointer]:
+        - /url: "#contact"
+      - link "See my work" [ref=e457] [cursor=pointer]:
+        - /url: "#work"
+    - generic [ref=e36]:
+      - generic [ref=e458]: 6+ years building
+      - generic [ref=e460]: Finnish & English
+      - generic [ref=e462]: Hosting from 10€/mo
+  - generic [ref=e43]:
+    - generic [ref=e44]:
+      - generic [ref=e45]: 01 · services
+      - heading "What I can build for you" [level=2] [ref=e464]
+      - paragraph [ref=e47]: Clear starting prices. No hidden fees, no monthly bills to me — I tell you up-front what you get and what you pay.
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - generic [ref=e50]: "01"
+        - generic [ref=e51]:
+          - generic [ref=e52]: from
+          - generic [ref=e53]: 200€
+        - generic [ref=e54]: Landing page
+        - generic [ref=e55]: One-page advert site
+        - generic [ref=e56]: A clean, fast, mobile-friendly page that says what you do and gets people to contact you. Perfect for a one-person business, an artist, or a side project.
+        - generic [ref=e57]:
+          - generic [ref=e465]: Mobile & fast
+          - generic [ref=e466]: Own domain & SSL
+          - generic [ref=e467]: Contact form
+      - generic [ref=e61]:
+        - generic [ref=e62]: "02"
+        - generic [ref=e63]:
+          - generic [ref=e64]: from
+          - generic [ref=e65]: 400€
+        - generic [ref=e66]: WordPress site
+        - generic [ref=e67]: You update it yourself
+        - generic [ref=e68]: The classic pick if you want to post news, photos or products yourself. I write up plain instructions and walk you through it.
+        - generic [ref=e69]:
+          - generic [ref=e468]: Live training
+          - generic [ref=e469]: Easy to update
+          - generic [ref=e470]: Written guide
+      - generic [ref=e73]:
+        - generic [ref=e74]: "03"
+        - generic [ref=e75]:
+          - generic [ref=e76]: from
+          - generic [ref=e77]: 500€
+        - generic [ref=e78]: Online store
+        - generic [ref=e79]: Selling 24/7
+        - generic [ref=e80]: Products, payments and shipping wired up. I help you pick the payment provider and shipping flow — you don't need to know anything ahead.
+        - generic [ref=e81]:
+          - generic [ref=e471]: Payments
+          - generic [ref=e472]: Shipping logic
+          - generic [ref=e473]: Inventory
+      - generic [ref=e85]:
+        - generic [ref=e86]: "04"
+        - generic [ref=e88]: Let's talk
+        - generic [ref=e89]: Custom site
+        - generic [ref=e90]: Tailored build
+        - generic [ref=e91]: When you need more than the templates — a webstore with complex logic, a booking system, a custom app, or deeper integrations. We map your needs together first.
+        - generic [ref=e92]:
+          - generic [ref=e474]: Custom build
+          - generic [ref=e475]: Integrations
+          - generic [ref=e476]: Larger project
+    - generic [ref=e96]:
+      - generic [ref=e97]: "05"
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - generic [ref=e100]: Hourly work
+          - generic [ref=e101]: One rate for everything else
+          - generic [ref=e103]: 50€/h
+          - generic [ref=e104]: "A single, honest hourly rate for all the flexible stuff. I bill actual hours only, nothing inflated. Especially good for:"
+          - generic [ref=e105]: flex
+        - generic [ref=e107]:
+          - generic [ref=e477]:
+            - generic [ref=e478]: 🐛
+            - generic [ref=e479]:
+              - generic [ref=e480]: Bug fixes & small additions
+              - generic [ref=e481]: Something broken? Let's fix it.
+          - generic [ref=e482]:
+            - generic [ref=e483]: 🤖
+            - generic [ref=e484]:
+              - generic [ref=e485]: AI coaching & agents
+              - generic [ref=e486]: Claude, Cursor and the rest, put to work.
+          - generic [ref=e487]:
+            - generic [ref=e488]: 💬
+            - generic [ref=e489]:
+              - generic [ref=e490]: Bots & integrations
+              - generic [ref=e491]: Discord bots, automations, API glue.
+          - generic [ref=e492]:
+            - generic [ref=e493]: 📊
+            - generic [ref=e494]:
+              - generic [ref=e495]: Data & analytics
+              - generic [ref=e496]: Reports, dashboards, metrics you understand.
+          - generic [ref=e497]:
+            - generic [ref=e498]: ⚡
+            - generic [ref=e499]:
+              - generic [ref=e500]: CLI scripts & automation
+              - generic [ref=e501]: Turn repetitive tasks into one command.
+          - generic [ref=e502]:
+            - generic [ref=e503]: 📱
+            - generic [ref=e504]:
+              - generic [ref=e505]: Mobile apps
+              - generic [ref=e506]: Small iOS / Android projects.
+          - generic [ref=e507]:
+            - generic [ref=e508]: 🧭
+            - generic [ref=e509]:
+              - generic [ref=e510]: Consulting & sparring
+              - generic [ref=e511]: A second opinion or a tech-speak translator.
+    - generic [ref=e143]:
+      - generic [ref=e144]:
+        - generic [ref=e145]: About hosting
+        - generic [ref=e146]: "Your site has to live somewhere. Two routes — both fine:"
+      - generic [ref=e512]:
+        - generic [ref=e513]: Monthly
+        - generic [ref=e514]: ~10€/mo
+        - generic [ref=e515]: I handle the server, updates and backups. Easy mode.
+      - generic [ref=e516]:
+        - generic [ref=e517]: DIY setup
+        - generic [ref=e518]: +100€ once
+        - generic [ref=e519]: I set you up on your own cloud and show you the ropes. After that you pay me zero euros forever.
+  - generic [ref=e155]:
+    - generic [ref=e156]:
+      - generic [ref=e157]: 02 · work
+      - heading "Recent work" [level=2] [ref=e520]
+      - paragraph [ref=e159]: Real customers, real businesses. Small and medium — exactly the kind I love working with.
+    - region "Recent work" [ref=e521]:
+      - generic [ref=e161]:
+        - generic [ref=e167]: sajportfolio.com
+        - link "SAJ Art Commissions" [ref=e522] [cursor=pointer]:
+          - /url: https://www.sajportfolio.com/
+          - img "SAJ Art Commissions" [ref=e523]
+        - generic [ref=e170]:
+          - generic [ref=e171]:
+            - generic [ref=e172]:
+              - generic [ref=e173]: Portfolio & gallery
+              - generic [ref=e174]: "2024"
+            - generic [ref=e175]: SAJ Art Commissions
+            - paragraph [ref=e176]: Artist commission site — portfolio, gallery and order form.
+          - link "Visit site →" [ref=e524] [cursor=pointer]:
+            - /url: https://www.sajportfolio.com/
+      - generic [ref=e178]:
+        - button "Previous work" [ref=e525] [cursor=pointer]: ←
+        - generic [ref=e180]:
+          - button "SAJ Art Commissions" [ref=e181] [cursor=pointer]
+          - button "Esan Verhoilu" [ref=e182] [cursor=pointer]
+          - button "Hyvinvointikeskus Luxus" [ref=e183] [cursor=pointer]
+          - button "analytics.junttila.dev" [ref=e184] [cursor=pointer]
+          - button "json.junttila.dev" [ref=e185] [cursor=pointer]
+          - button "TPX Discord Bot" [ref=e186] [cursor=pointer]
+        - button "Next work" [ref=e526] [cursor=pointer]: →
+        - generic [ref=e188]: 1 / 6
+      - generic [ref=e189]:
+        - button "SAJ Art Commissions" [ref=e190] [cursor=pointer]:
+          - generic [ref=e191]: SAJ Art Commissions
+        - button "Esan Verhoilu" [ref=e192] [cursor=pointer]:
+          - generic [ref=e193]: Esan Verhoilu
+        - button "Hyvinvointikeskus Luxus" [ref=e194] [cursor=pointer]:
+          - generic [ref=e195]: Hyvinvointikeskus Luxus
+        - button "analytics.junttila.dev" [ref=e196] [cursor=pointer]:
+          - generic [ref=e197]: analytics.junttila.dev
+        - button "json.junttila.dev" [ref=e198] [cursor=pointer]:
+          - generic [ref=e199]: json.junttila.dev
+        - button "TPX Discord Bot" [ref=e200] [cursor=pointer]:
+          - generic [ref=e201]: TPX Discord Bot
+  - generic [ref=e202]:
+    - generic [ref=e203]:
+      - generic [ref=e204]:
+        - generic [ref=e205]: 03 · about
+        - heading "Hi, I'm Niko" [level=2] [ref=e527]
+      - generic [ref=e207]:
+        - paragraph [ref=e208]: "I've been doing web development for over six years. I've worked at big shops and tiny ones — and I noticed small clients often get the worst service: overpriced, slow, full of empty words."
+        - paragraph [ref=e209]: "I wanted to fix that. So I freelance directly for people and small businesses: clear pricing, direct contact, code that actually works."
+        - paragraph [ref=e210]: Outside of work I lift, hike and swim. Ostrobothnia has room for both worlds.
+      - generic [ref=e211]:
+        - generic [ref=e528]:
+          - generic [ref=e529]: 6+
+          - generic [ref=e530]: years of experience
+        - generic [ref=e531]:
+          - generic [ref=e532]: 15+
+          - generic [ref=e533]: sites in production
+        - generic [ref=e534]:
+          - generic [ref=e535]: 100%
+          - generic [ref=e536]: in plain language
+    - generic [ref=e221]:
+      - img [ref=e223]
+      - generic [ref=e372]:
+        - generic [ref=e373]: 💪
+        - text: sali
+      - generic [ref=e375]:
+        - generic [ref=e376]: 🥾
+        - text: vaellus
+      - generic [ref=e378]:
+        - generic [ref=e379]: 🏊
+        - text: uinti
+  - generic [ref=e231]:
+    - generic [ref=e232]:
+      - generic [ref=e233]: 04 · process
+      - heading "How we work together" [level=2] [ref=e537]
+      - paragraph [ref=e235]: Simple. No long meetings, no jargon.
+    - generic [ref=e236]:
+      - generic [ref=e237]:
+        - generic [ref=e238]: "01"
+        - generic [ref=e239]: Chat
+        - generic [ref=e240]: Call, text or email. 15 minutes, free. We figure out what you actually need.
+      - generic [ref=e241]:
+        - generic [ref=e242]: "02"
+        - generic [ref=e243]: Quote
+        - generic [ref=e244]: Written quote, fixed price or hours. You know the cost before we start.
+      - generic [ref=e245]:
+        - generic [ref=e246]: "03"
+        - generic [ref=e247]: Building
+        - generic [ref=e248]: I use AI-assisted development, so you see a working version of the whole site early on. You comment, I refine. No end-of-project surprises.
+      - generic [ref=e249]:
+        - generic [ref=e250]: "04"
+        - generic [ref=e251]: Launch
+        - generic [ref=e252]: Site goes live. We walk through how you update it. You get the docs.
+  - generic [ref=e389]:
+    - generic [ref=e390]:
+      - generic [ref=e391]: 05 · testimonials
+      - heading "What clients say" [level=2] [ref=e538]
+    - generic [ref=e393]:
+      - generic [ref=e394]:
+        - generic [ref=e395]:
+          - generic [ref=e396]: ★
+          - generic [ref=e397]: ★
+          - generic [ref=e398]: ★
+          - generic [ref=e399]: ★
+          - generic [ref=e400]: ★
+        - generic [ref=e401]:
+          - generic [ref=e402]: “
+          - paragraph [ref=e403]: Niko built us a site that actually shows up and actually works. The whole thing was painless.
+        - generic [ref=e404]:
+          - generic [ref=e405]:
+            - generic [ref=e406]: SH
+            - generic [ref=e407]:
+              - generic [ref=e408]: Susanna H.
+              - generic [ref=e409]: Hyvinvointikeskus Luxus
+          - link "View site → hyvinvointikeskusluxus.com" [ref=e539] [cursor=pointer]:
+            - /url: https://www.hyvinvointikeskusluxus.com/
+      - generic [ref=e411]:
+        - generic [ref=e412]:
+          - generic [ref=e413]: ★
+          - generic [ref=e414]: ★
+          - generic [ref=e415]: ★
+          - generic [ref=e416]: ★
+          - generic [ref=e417]: ★
+        - generic [ref=e418]:
+          - generic [ref=e419]: “
+          - paragraph [ref=e420]: He understood what I wanted even when I couldn't say it in code-speak. Clear price, no surprises.
+        - generic [ref=e421]:
+          - generic [ref=e422]:
+            - generic [ref=e423]: EJ
+            - generic [ref=e424]:
+              - generic [ref=e425]: Esa J.
+              - generic [ref=e426]: Esan Verhoilu
+          - link "View site → esanverhoilu.fi" [ref=e540] [cursor=pointer]:
+            - /url: https://www.esanverhoilu.fi/
+      - generic [ref=e428]:
+        - generic [ref=e429]:
+          - generic [ref=e430]: ★
+          - generic [ref=e431]: ★
+          - generic [ref=e432]: ★
+          - generic [ref=e433]: ★
+          - generic [ref=e434]: ★
+        - generic [ref=e435]:
+          - generic [ref=e436]: “
+          - paragraph [ref=e437]: I got a portfolio site that's as easy to update as sending a text.
+        - generic [ref=e438]:
+          - generic [ref=e439]:
+            - generic [ref=e440]: SAJ
+            - generic [ref=e441]:
+              - generic [ref=e442]: SAJ
+              - generic [ref=e443]: SAJ Art Commissions
+          - link "View site → sajportfolio.com" [ref=e541] [cursor=pointer]:
+            - /url: https://www.sajportfolio.com/
+  - generic [ref=e309]:
+    - generic [ref=e310]:
+      - generic [ref=e311]: 06 · reading
+      - heading "Notes & guides" [level=2] [ref=e542]
+      - paragraph [ref=e313]: Short reads on building a better internet — even on a small budget.
+    - generic [ref=e314]:
+      - link "How-to Apr 2026 An online store under 500€ — is it possible? 5 min read →" [ref=e543] [cursor=pointer]:
+        - /url: /blog/online-store-under-500
+        - generic [ref=e544]:
+          - generic [ref=e545]: How-to
+          - generic [ref=e546]: Apr 2026
+        - generic [ref=e547]: An online store under 500€ — is it possible?
+        - generic [ref=e548]:
+          - generic [ref=e549]: 5 min read
+          - generic [ref=e550]: →
+      - link "Notes Mar 2026 AI tools for small business owners — where to start 8 min read →" [ref=e551] [cursor=pointer]:
+        - /url: /blog/ai-tools-for-small-business
+        - generic [ref=e552]:
+          - generic [ref=e553]: Notes
+          - generic [ref=e554]: Mar 2026
+        - generic [ref=e555]: AI tools for small business owners — where to start
+        - generic [ref=e556]:
+          - generic [ref=e557]: 8 min read
+          - generic [ref=e558]: →
+      - link "Opinion Feb 2026 Why WordPress can still be your best pick 6 min read →" [ref=e559] [cursor=pointer]:
+        - /url: /blog/wordpress-still-a-pick
+        - generic [ref=e560]:
+          - generic [ref=e561]: Opinion
+          - generic [ref=e562]: Feb 2026
+        - generic [ref=e563]: Why WordPress can still be your best pick
+        - generic [ref=e564]:
+          - generic [ref=e565]: 6 min read
+          - generic [ref=e566]: →
+  - generic [ref=e339]:
+    - generic [ref=e342]:
+      - generic [ref=e343]: 07 · contact
+      - heading "Let's talk" [level=2] [ref=e567]
+      - paragraph [ref=e345]: "Simplest way: drop me a message. I usually reply the same day."
+      - generic [ref=e346]:
+        - generic [ref=e347]:
+          - generic [ref=e348]: Name
+          - textbox "Name" [ref=e568]
+        - generic [ref=e350]:
+          - generic [ref=e351]: Email
+          - textbox "Email" [ref=e569]
+        - generic [ref=e353]:
+          - generic [ref=e354]: Message
+          - textbox "Message" [ref=e570]
+        - generic [ref=e357]:
+          - text: Website
+          - textbox [ref=e358]
+        - button "Send message →" [ref=e571] [cursor=pointer]
+      - generic [ref=e360]:
+        - link "Email niko@junttila.dev" [ref=e361] [cursor=pointer]:
+          - /url: mailto:niko@junttila.dev
+          - generic [ref=e362]: Email
+          - generic [ref=e363]: niko@junttila.dev
+        - link "Or call +358 40 000 0000" [ref=e572] [cursor=pointer]:
+          - /url: tel:+358400000000
+          - generic [ref=e365]: Or call
+          - generic [ref=e366]: +358 40 000 0000
+    - generic [ref=e367]:
+      - generic [ref=e368]: © 2026 Niko Junttila · Kokkola, Finland
+      - link "github.com/nikojunttila" [ref=e370] [cursor=pointer]:
+        - /url: https://github.com/nikojunttila

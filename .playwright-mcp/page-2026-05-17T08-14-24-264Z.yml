@@ -1,0 +1,361 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - generic [ref=e6]:
+      - link "n junttila.dev" [ref=e7] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e8]: "n"
+        - generic [ref=e9]: junttila.dev
+      - generic [ref=e10]:
+        - link "Palvelut" [ref=e11] [cursor=pointer]:
+          - /url: "#services"
+        - link "Työt" [ref=e12] [cursor=pointer]:
+          - /url: "#work"
+        - link "Minä" [ref=e13] [cursor=pointer]:
+          - /url: "#about"
+        - link "Prosessi" [ref=e14] [cursor=pointer]:
+          - /url: "#process"
+        - link "Blogi" [ref=e15] [cursor=pointer]:
+          - /url: "#blog"
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - button "fi" [ref=e18] [cursor=pointer]
+          - button "en" [ref=e19] [cursor=pointer]
+        - link "Ota yhteyttä →" [ref=e20] [cursor=pointer]:
+          - /url: "#contact"
+  - generic [ref=e21]:
+    - generic [ref=e23]: 500€
+    - generic [ref=e25]: 200€
+    - generic [ref=e27]: hei!
+    - generic [ref=e28]: Freelance-kehittäjä · Kokkola / etänä
+    - heading "Nettisivut jotka palvelevat sinua." [level=1] [ref=e30]:
+      - text: Nettisivut
+      - generic [ref=e31]: jotka palvelevat sinua.
+    - paragraph [ref=e32]: Olen Niko. 6v+ kokemusta web-kehityksestä. Rakennan sivut, kaupat ja työkalut yrittäjille, harrastajille ja arjen ammattilaisille — selkeällä hinnalla, ihmisten kielellä.
+    - generic [ref=e33]:
+      - link "Pyydä tarjous →" [ref=e34] [cursor=pointer]:
+        - /url: "#contact"
+      - link "Katso työt" [ref=e35] [cursor=pointer]:
+        - /url: "#work"
+    - generic [ref=e36]:
+      - generic [ref=e37]: 6+ v. kokemusta
+      - generic [ref=e39]: Suomeksi & englanniksi
+      - generic [ref=e41]: Hosting alk. 10€/kk
+  - generic [ref=e43]:
+    - generic [ref=e44]:
+      - generic [ref=e45]: 01 · palvelut
+      - heading "Mitä voin tehdä sinulle" [level=2] [ref=e46]
+      - paragraph [ref=e47]: Selkeät aloitushinnat. Ei piilolaskuja, ei kuukausimaksuja minulle — kerron heti, mitä saat ja mistä maksat.
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - generic [ref=e50]: "01"
+        - generic [ref=e51]:
+          - generic [ref=e52]: alkaen
+          - generic [ref=e53]: 200€
+        - generic [ref=e54]: Esittelysivu
+        - generic [ref=e55]: Yhden sivun mainossivu
+        - generic [ref=e56]: Kaunis, nopea ja mobiili-optimoitu sivu, joka kertoo mitä teet ja saa asiakkaan ottamaan yhteyttä. Sopii pienyrittäjälle, taiteilijalle tai harrastajalle.
+        - generic [ref=e57]:
+          - generic [ref=e58]: Mobiili & nopea
+          - generic [ref=e59]: Oma domain & SSL
+          - generic [ref=e60]: Yhteydenottolomake
+      - generic [ref=e61]:
+        - generic [ref=e62]: "02"
+        - generic [ref=e63]:
+          - generic [ref=e64]: alkaen
+          - generic [ref=e65]: 400€
+        - generic [ref=e66]: WordPress-sivut
+        - generic [ref=e67]: Päivität itse, ilman pelkoa
+        - generic [ref=e68]: Klassinen valinta jos haluat lisätä uutisia, kuvia tai tuotteita itse. Annan kirjalliset ohjeet ja pidetään yhdessä lyhyt opastus.
+        - generic [ref=e69]:
+          - generic [ref=e70]: Käytön opastus
+          - generic [ref=e71]: Helppo päivittää
+          - generic [ref=e72]: Kirjalliset ohjeet
+      - generic [ref=e73]:
+        - generic [ref=e74]: "03"
+        - generic [ref=e75]:
+          - generic [ref=e76]: alkaen
+          - generic [ref=e77]: 500€
+        - generic [ref=e78]: Verkkokauppa
+        - generic [ref=e79]: Myynti auki 24/7
+        - generic [ref=e80]: Tuotteet, maksaminen ja toimitukset toimimaan. Sovin yhdessä kanssasi maksunvälittäjän ja postituksen — ei tarvitse osata ennalta.
+        - generic [ref=e81]:
+          - generic [ref=e82]: Maksunvälitys
+          - generic [ref=e83]: Toimituslogiikka
+          - generic [ref=e84]: Varaston hallinta
+      - generic [ref=e85]:
+        - generic [ref=e86]: "04"
+        - generic [ref=e88]: Sovitaan
+        - generic [ref=e89]: Vaativampi sivusto
+        - generic [ref=e90]: Räätälöity ratkaisu
+        - generic [ref=e91]: Kun haluat enemmän kuin valmiit raamit — verkkokauppa monimutkaisella logiikalla, varausjärjestelmä, oma sovellus tai integraatiot. Jutellaan ensin tarpeesi läpi.
+        - generic [ref=e92]:
+          - generic [ref=e93]: Räätälöinti
+          - generic [ref=e94]: Integraatiot
+          - generic [ref=e95]: Pidempi projekti
+    - generic [ref=e96]:
+      - generic [ref=e97]: "05"
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - generic [ref=e100]: Tuntityö
+          - generic [ref=e101]: Yhdellä hinnalla kaikkeen muuhun
+          - generic [ref=e103]: 50€/h
+          - generic [ref=e104]: "Yksi selkeä hinta kaikkeen joustavaan tekemiseen. Laskutan vain todelliset tunnit, en minuuttia enempää. Sopii erityisesti:"
+          - generic [ref=e105]: flex
+        - generic [ref=e107]:
+          - generic [ref=e108]:
+            - generic [ref=e109]: 🐛
+            - generic [ref=e110]:
+              - generic [ref=e111]: Bugit & pienet korjaukset
+              - generic [ref=e112]: Joku rikki? Korjataan.
+          - generic [ref=e113]:
+            - generic [ref=e114]: 🤖
+            - generic [ref=e115]:
+              - generic [ref=e116]: AI-opastus & agentit
+              - generic [ref=e117]: Claude, Cursor ja muut työkalut käytäntöön.
+          - generic [ref=e118]:
+            - generic [ref=e119]: 💬
+            - generic [ref=e120]:
+              - generic [ref=e121]: Botit & integraatiot
+              - generic [ref=e122]: Discord-botit, automaatiot, API-liimaukset.
+          - generic [ref=e123]:
+            - generic [ref=e124]: 📊
+            - generic [ref=e125]:
+              - generic [ref=e126]: Data & analytiikka
+              - generic [ref=e127]: Raportit, dashboardit, mittarit selkeästi.
+          - generic [ref=e128]:
+            - generic [ref=e129]: ⚡
+            - generic [ref=e130]:
+              - generic [ref=e131]: CLI & skriptit
+              - generic [ref=e132]: Toistuvat työt automaattisiksi.
+          - generic [ref=e133]:
+            - generic [ref=e134]: 📱
+            - generic [ref=e135]:
+              - generic [ref=e136]: Mobiilisovellukset
+              - generic [ref=e137]: Pienet iOS/Android-projektit.
+          - generic [ref=e138]:
+            - generic [ref=e139]: 🧭
+            - generic [ref=e140]:
+              - generic [ref=e141]: Konsultointi & sparrausta
+              - generic [ref=e142]: Toinen mielipide tai tekninen sanasto käännös.
+    - generic [ref=e143]:
+      - generic [ref=e144]:
+        - generic [ref=e145]: Entä hosting?
+        - generic [ref=e146]: "Sivu pitää majoittaa jonnekin. Sinulla on kaksi reittiä — kumpikin OK:"
+      - generic [ref=e147]:
+        - generic [ref=e148]: Kuukausimaksu
+        - generic [ref=e149]: ~10€/kk
+        - generic [ref=e150]: Hoidan palvelimen, päivitykset ja varmuuskopiot. Helppoa.
+      - generic [ref=e151]:
+        - generic [ref=e152]: Tee-se-itse
+        - generic [ref=e153]: +100€ kerralla
+        - generic [ref=e154]: Pystytän sinulle omaan pilveen ja näytän käytön. Sen jälkeen et maksa minulle senttiäkään.
+  - generic [ref=e155]:
+    - generic [ref=e156]:
+      - generic [ref=e157]: 02 · työt
+      - heading "Tehtyjä töitä" [level=2] [ref=e158]
+      - paragraph [ref=e159]: Oikeita asiakkaita, oikeita yrityksiä. Pieniä ja keskikokoisia — juuri sellaisia, joiden parissa viihdyn.
+    - region "Tehtyjä töitä" [ref=e160]:
+      - generic [ref=e161]:
+        - generic [ref=e167]: sajportfolio.com
+        - link "SAJ Art Commissions" [ref=e168] [cursor=pointer]:
+          - /url: https://www.sajportfolio.com/
+          - img "SAJ Art Commissions" [ref=e169]
+        - generic [ref=e170]:
+          - generic [ref=e171]:
+            - generic [ref=e172]:
+              - generic [ref=e173]: Portfolio & galleria
+              - generic [ref=e174]: "2024"
+            - generic [ref=e175]: SAJ Art Commissions
+            - paragraph [ref=e176]: Taiteilijan tilaussivu — portfolio, galleria ja tilauslomake.
+          - link "Vieraile sivulla →" [ref=e177] [cursor=pointer]:
+            - /url: https://www.sajportfolio.com/
+      - generic [ref=e178]:
+        - button "Edellinen työ" [ref=e179] [cursor=pointer]: ←
+        - generic [ref=e180]:
+          - button "SAJ Art Commissions" [ref=e181] [cursor=pointer]
+          - button "Esan Verhoilu" [ref=e182] [cursor=pointer]
+          - button "Hyvinvointikeskus Luxus" [ref=e183] [cursor=pointer]
+          - button "analytics.junttila.dev" [ref=e184] [cursor=pointer]
+          - button "json.junttila.dev" [ref=e185] [cursor=pointer]
+          - button "TPX Discord Bot" [ref=e186] [cursor=pointer]
+        - button "Seuraava työ" [ref=e187] [cursor=pointer]: →
+        - generic [ref=e188]: 1 / 6
+      - generic [ref=e189]:
+        - button "SAJ Art Commissions" [ref=e190] [cursor=pointer]:
+          - generic [ref=e191]: SAJ Art Commissions
+        - button "Esan Verhoilu" [ref=e192] [cursor=pointer]:
+          - generic [ref=e193]: Esan Verhoilu
+        - button "Hyvinvointikeskus Luxus" [ref=e194] [cursor=pointer]:
+          - generic [ref=e195]: Hyvinvointikeskus Luxus
+        - button "analytics.junttila.dev" [ref=e196] [cursor=pointer]:
+          - generic [ref=e197]: analytics.junttila.dev
+        - button "json.junttila.dev" [ref=e198] [cursor=pointer]:
+          - generic [ref=e199]: json.junttila.dev
+        - button "TPX Discord Bot" [ref=e200] [cursor=pointer]:
+          - generic [ref=e201]: TPX Discord Bot
+  - generic [ref=e202]:
+    - generic [ref=e203]:
+      - generic [ref=e204]:
+        - generic [ref=e205]: 03 · minä
+        - heading "Tervehdys, olen Niko" [level=2] [ref=e206]
+      - generic [ref=e207]:
+        - paragraph [ref=e208]: "Olen tehnyt web-kehitystä yli kuusi vuotta. Olen työskennellyt isoissa firmoissa ja pienissä — ja huomasin, että pienet asiakkaat saavat usein huonointa palvelua: ylihintaista, hidasta ja täynnä turhia sanoja."
+        - paragraph [ref=e209]: "Halusin korjata sen. Siksi teen tätä freelancena suoraan ihmisille ja pienille yrityksille: selkeä hinta, suora kontakti, koodi joka toimii."
+        - paragraph [ref=e210]: Töiden ulkopuolella treenaan salilla, käyn vaeltamassa ja uin. Pohjanmaalla on tilaa molemmille.
+      - generic [ref=e211]:
+        - generic [ref=e212]:
+          - generic [ref=e213]: 6+
+          - generic [ref=e214]: vuotta kokemusta
+        - generic [ref=e215]:
+          - generic [ref=e216]: 15+
+          - generic [ref=e217]: tuotannossa olevaa sivua
+        - generic [ref=e218]:
+          - generic [ref=e219]: 100%
+          - generic [ref=e220]: ihmisten kielellä
+    - img [ref=e223]
+  - generic [ref=e231]:
+    - generic [ref=e232]:
+      - generic [ref=e233]: 04 · prosessi
+      - heading "Miten työskennellään" [level=2] [ref=e234]
+      - paragraph [ref=e235]: Yksinkertaista. Ei tuntien kokouksia, ei jargonia.
+    - generic [ref=e236]:
+      - generic [ref=e237]:
+        - generic [ref=e238]: "01"
+        - generic [ref=e239]: suunnittelu
+        - generic [ref=e240]: Soitto, tekstari tai sähköposti. 15 min, ilmaista. Selvitetään mitä oikeasti tarvitset.
+      - generic [ref=e241]:
+        - generic [ref=e242]: "02"
+        - generic [ref=e243]: Tarjous
+        - generic [ref=e244]: Kirjallinen tarjous, kiinteä hinta tai tunteja. Tiedät mistä maksat ennen aloitusta.
+      - generic [ref=e245]:
+        - generic [ref=e246]: "03"
+        - generic [ref=e247]: Rakentaminen
+        - generic [ref=e248]: Käytän AI-avusteista kehitystä, joten näet valmiin sivuston jo aikaisin. Sinä kommentoit, minä viilaan. Ei yllätyksiä lopussa.
+      - generic [ref=e249]:
+        - generic [ref=e250]: "04"
+        - generic [ref=e251]: Julkaisu
+        - generic [ref=e252]: Sivu menee nettiin. Käymme yhdessä läpi miten päivität sitä. Saat dokumentit.
+  - generic [ref=e253]:
+    - generic [ref=e254]:
+      - generic [ref=e255]: 05 · palautteet
+      - heading "Mitä asiakkaat sanovat" [level=2] [ref=e256]
+    - generic [ref=e257]:
+      - generic [ref=e258]:
+        - generic [ref=e259]:
+          - generic [ref=e260]: ★
+          - generic [ref=e261]: ★
+          - generic [ref=e262]: ★
+          - generic [ref=e263]: ★
+          - generic [ref=e264]: ★
+        - generic [ref=e265]:
+          - generic [ref=e266]: “
+          - paragraph [ref=e267]: Niko teki meille sivut, jotka oikeasti näkyvät ja toimivat. Yhteistyö oli mutkatonta.
+        - generic [ref=e268]:
+          - generic [ref=e269]:
+            - generic [ref=e270]: SH
+            - generic [ref=e271]:
+              - generic [ref=e272]: Susanna H.
+              - generic [ref=e273]: Hyvinvointikeskus Luxus
+          - link "Katso sivu → hyvinvointikeskusluxus.com" [ref=e274] [cursor=pointer]:
+            - /url: https://www.hyvinvointikeskusluxus.com/
+      - generic [ref=e275]:
+        - generic [ref=e276]:
+          - generic [ref=e277]: ★
+          - generic [ref=e278]: ★
+          - generic [ref=e279]: ★
+          - generic [ref=e280]: ★
+          - generic [ref=e281]: ★
+        - generic [ref=e282]:
+          - generic [ref=e283]: “
+          - paragraph [ref=e284]: Ymmärsi mitä haluan, vaikka en itse osannut sanoa sitä koodikielellä. Selkeä hinta, ei yllätyksiä.
+        - generic [ref=e285]:
+          - generic [ref=e286]:
+            - generic [ref=e287]: EJ
+            - generic [ref=e288]:
+              - generic [ref=e289]: Esa J.
+              - generic [ref=e290]: Esan Verhoilu
+          - link "Katso sivu → esanverhoilu.fi" [ref=e291] [cursor=pointer]:
+            - /url: https://www.esanverhoilu.fi/
+      - generic [ref=e292]:
+        - generic [ref=e293]:
+          - generic [ref=e294]: ★
+          - generic [ref=e295]: ★
+          - generic [ref=e296]: ★
+          - generic [ref=e297]: ★
+          - generic [ref=e298]: ★
+        - generic [ref=e299]:
+          - generic [ref=e300]: “
+          - paragraph [ref=e301]: Sain portfoliosivun jonka päivittäminen on yhtä helppoa kuin tekstiviestin lähettäminen.
+        - generic [ref=e302]:
+          - generic [ref=e303]:
+            - generic [ref=e304]: S
+            - generic [ref=e305]:
+              - generic [ref=e306]: SAJ
+              - generic [ref=e307]: SAJ Art Commissions
+          - link "Katso sivu → sajportfolio.com" [ref=e308] [cursor=pointer]:
+            - /url: https://www.sajportfolio.com/
+  - generic [ref=e309]:
+    - generic [ref=e310]:
+      - generic [ref=e311]: 06 · luettavaa
+      - heading "Ajatuksia ja oppaita" [level=2] [ref=e312]
+      - paragraph [ref=e313]: Lyhyitä juttuja siitä, miten tehdä parempaa nettiä — pienelläkin budjetilla.
+    - generic [ref=e314]:
+      - link "Ohje Huhti 2026 Verkkokauppa alle 500 eurolla — mahdollistako? 5 min luku →" [ref=e315] [cursor=pointer]:
+        - /url: /blog/online-store-under-500
+        - generic [ref=e316]:
+          - generic [ref=e317]: Ohje
+          - generic [ref=e318]: Huhti 2026
+        - generic [ref=e319]: Verkkokauppa alle 500 eurolla — mahdollistako?
+        - generic [ref=e320]:
+          - generic [ref=e321]: 5 min luku
+          - generic [ref=e322]: →
+      - link "Oppi Maalis 2026 AI-työkalut pienelle yrittäjälle — mistä aloittaa 8 min luku →" [ref=e323] [cursor=pointer]:
+        - /url: /blog/ai-tools-for-small-business
+        - generic [ref=e324]:
+          - generic [ref=e325]: Oppi
+          - generic [ref=e326]: Maalis 2026
+        - generic [ref=e327]: AI-työkalut pienelle yrittäjälle — mistä aloittaa
+        - generic [ref=e328]:
+          - generic [ref=e329]: 8 min luku
+          - generic [ref=e330]: →
+      - link "Mielipide Helmi 2026 Miksi WordPress voi yhä olla paras valintasi 6 min luku →" [ref=e331] [cursor=pointer]:
+        - /url: /blog/wordpress-still-a-pick
+        - generic [ref=e332]:
+          - generic [ref=e333]: Mielipide
+          - generic [ref=e334]: Helmi 2026
+        - generic [ref=e335]: Miksi WordPress voi yhä olla paras valintasi
+        - generic [ref=e336]:
+          - generic [ref=e337]: 6 min luku
+          - generic [ref=e338]: →
+  - generic [ref=e339]:
+    - generic [ref=e342]:
+      - generic [ref=e343]: 07 · yhteystiedot
+      - heading "Otetaan yhteyttä" [level=2] [ref=e344]
+      - paragraph [ref=e345]: "Yksinkertaisin tapa: laita viestiä. Vastaan yleensä samana päivänä."
+      - generic [ref=e346]:
+        - generic [ref=e347]:
+          - generic [ref=e348]: Nimi
+          - textbox "Nimi" [ref=e349]
+        - generic [ref=e350]:
+          - generic [ref=e351]: Sähköposti
+          - textbox "Sähköposti" [ref=e352]
+        - generic [ref=e353]:
+          - generic [ref=e354]: Viesti
+          - textbox "Viesti" [ref=e355]
+        - generic [ref=e357]:
+          - text: Website
+          - textbox [ref=e358]
+        - button "Lähetä viesti →" [ref=e359] [cursor=pointer]
+      - generic [ref=e360]:
+        - link "Email niko@junttila.dev" [ref=e361] [cursor=pointer]:
+          - /url: mailto:niko@junttila.dev
+          - generic [ref=e362]: Email
+          - generic [ref=e363]: niko@junttila.dev
+        - link "Tai soita +358 40 000 0000" [ref=e364] [cursor=pointer]:
+          - /url: tel:+358400000000
+          - generic [ref=e365]: Tai soita
+          - generic [ref=e366]: +358 40 000 0000
+    - generic [ref=e367]:
+      - generic [ref=e368]: © 2026 Niko Junttila · Kokkola, Suomi
+      - link "github.com/nikojunttila" [ref=e370] [cursor=pointer]:
+        - /url: https://github.com/nikojunttila

@@ -48,7 +48,7 @@
 		<StickerWork {t} {lang} />
 		<StickerAbout {t} />
 		<StickerProcess {t} />
-		<StickerTestimonials {t} />
+		<StickerTestimonials {t} {lang} />
 		<StickerBlog {t} />
 		<StickerContact {t} />
 	</div>
