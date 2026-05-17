@@ -91,15 +91,22 @@
 				style:background={current.palette[3]}
 				style:border-bottom="2px solid {th.ink}"
 			>
-				<img
-					src={current.image}
-					alt={current.name}
-					loading="lazy"
-					style:width="100%"
-					style:height="100%"
-					style:object-fit="contain"
-					style:display="block"
-				/>
+				{#if Array.isArray(current.image)}
+					<div class="jd-work-image-pair">
+						<img src={current.image[0]} alt={current.name} loading="lazy" />
+						<img src={current.image[1]} alt={current.name} loading="lazy" />
+					</div>
+				{:else}
+					<img
+						src={current.image}
+						alt={current.name}
+						loading="lazy"
+						style:width="100%"
+						style:height="100%"
+						style:object-fit="contain"
+						style:display="block"
+					/>
+				{/if}
 			</a>
 
 			<div class="jd-work-meta">
@@ -251,7 +258,7 @@
 					aria-current={i === index}
 				>
 					<img
-						src={item.image}
+						src={Array.isArray(item.image) ? item.image[0] : item.image}
 						alt=""
 						loading="lazy"
 						style:background={item.palette[3]}
@@ -278,6 +285,24 @@
 
 	.jd-work-image-wrap img {
 		max-height: 620px;
+	}
+
+	.jd-work-image-pair {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 8px;
+		width: 100%;
+		height: 100%;
+		padding: 8px;
+		box-sizing: border-box;
+	}
+
+	.jd-work-image-pair img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+		display: block;
+		min-height: 0;
 	}
 
 	.jd-work-meta {
@@ -387,6 +412,10 @@
 		.jd-work-image-wrap {
 			min-height: 220px;
 			height: 64vw;
+		}
+		.jd-work-image-pair {
+			grid-template-columns: 1fr;
+			grid-template-rows: 1fr 1fr;
 		}
 		.jd-work-meta {
 			padding: 22px 20px;

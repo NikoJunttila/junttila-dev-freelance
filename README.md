@@ -1,42 +1,55 @@
-# sv
+# junttila.dev
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Personal CV and freelancing portfolio site for Niko Junttila — freelance web developer based in Kokkola, Finland.
 
-## Creating a project
+The site presents the services I offer (landing pages, WordPress sites, online stores, custom builds and hourly work), past projects, process, testimonials, and a small blog. Available in Finnish and English.
 
-If you're seeing this, you've probably already done this step. Congrats!
+Live: <https://junttila.dev>
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## Stack
 
-To recreate this project with the same configuration:
+- **SvelteKit** (Svelte 5)
+- **TypeScript**
+- **Tailwind CSS** with `@tailwindcss/typography`
+- **Paraglide** for i18n (fi / en)
+- **Deno** as the package manager / runtime
+- **Prettier** for formatting
 
-```sh
-# recreate this project
-deno run npm:sv@0.15.3 create --template minimal --types ts --add paraglide="languageTags:fi, en+demo:yes" tailwindcss="plugins:typography" prettier mcp="ide:claude-code+setup:remote" --install deno junttila_dev
-```
+## Project layout
 
-## Developing
+- `src/lib/content.ts` — all site copy (both languages), portfolio entries, contact details and theme tokens
+- `src/lib/components/` — Svelte components
+- `src/routes/` — pages, blog and API routes
+- `messages/` — Paraglide translation sources
+- `static/` — images and other static assets
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
+## Development
 
 ```sh
-npm run build
+deno install
+deno task dev
+# or open in a browser tab
+deno task dev -- --open
 ```
 
-You can preview the production build with `npm run preview`.
+## Build
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+```sh
+deno task build
+deno task preview
+```
+
+## Other tasks
+
+```sh
+deno task check    # type-check with svelte-check
+deno task lint     # prettier --check
+deno task format   # prettier --write
+```
+
+A `Taskfile.yml` is also included if you prefer [Task](https://taskfile.dev) (`task dev`, `task build`, etc.).
+
+## Contact
+
+- Email: `niko@junttila.dev`
+- GitHub: <https://github.com/nikojunttila>

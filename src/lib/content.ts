@@ -517,11 +517,11 @@ export const COPY: Record<Lang, Copy> = {
 };
 
 export type PortfolioItem = {
-  id: 'saj' | 'esan' | 'luxus' | 'analytics' | 'json' | 'discord';
+  id: 'saj' | 'esan' | 'luxus' | 'analytics' | 'json' | 'discord' | 'store' | 'oldcv';
   name: string;
   url: string;
   href: string;
-  image: string;
+  image: string | [string, string];
   tag: Record<Lang, string>;
   year: string;
   desc: Record<Lang, string>;
@@ -612,6 +612,34 @@ export const PORTFOLIO: PortfolioItem[] = [
       en: "Discord bot that tracks your friends' League of Legends games and pipes Twitch chat into a Discord channel."
     },
     palette: ['#7289DA', '#5865F2', '#1E2235', '#E8EAF8']
+  },
+  {
+    id: 'store',
+    name: 'Vendure Storefront',
+    url: 'store.junttila.dev',
+    href: 'https://store.junttila.dev/',
+    image: '/store.png',
+    tag: { fi: 'Verkkokaupan pohja', en: 'E-commerce starter' },
+    year: '2025',
+    desc: {
+      fi: 'Esimerkkikauppa, jota käytetään pohjana uusien verkkokauppojen nopeaan rakentamiseen. Backendinä Vendure (vendure.io).',
+      en: 'Example storefront used as a base to quickly spin up new e-commerce sites. Powered by the Vendure (vendure.io) headless commerce backend.'
+    },
+    palette: ['#F08A5D', '#1B2540', '#0B1226', '#F4ECDE']
+  },
+  {
+    id: 'oldcv',
+    name: 'junttila.dev (legacy)',
+    url: 'junttila.dev',
+    href: 'https://junttila.dev/',
+    image: ['/old_cv_cooking.png', '/old_cv_gym_tracking.png'],
+    tag: { fi: 'Henkilökohtainen sivu', en: 'Personal site' },
+    year: '2023',
+    desc: {
+      fi: 'Aiempi henkilökohtainen sivu — CV, kuntosaliharjoittelun seuranta ja reseptikokoelma.',
+      en: 'Older personal site — CV, gym training tracker and recipe collection.'
+    },
+    palette: ['#E74C3C', '#7A4CC0', '#1A1530', '#F4E9DA']
   }
 ];
 
