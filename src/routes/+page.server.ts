@@ -37,7 +37,7 @@ export const actions: Actions = {
 					'Content-Type': 'application/json'
 				},
 				body: JSON.stringify({
-					from: 'junttila.dev <onboarding@resend.dev>',
+					from: 'junttila.dev <contact@email.junttila.dev>',
 					to: [CONTACT.email],
 					reply_to: email,
 					subject: `junttila.dev — ${name}`,
