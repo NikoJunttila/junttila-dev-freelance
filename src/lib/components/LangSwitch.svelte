@@ -1,7 +1,11 @@
 <script lang="ts">
 	import type { Lang } from '$lib/content';
+	import type { Pathname } from '$app/types';
+	import { resolve } from '$app/paths';
+	import { page } from '$app/state';
+	import { localizeHref } from '$lib/paraglide/runtime';
 
-	let { lang = $bindable() }: { lang: Lang } = $props();
+	let { lang }: { lang: Lang } = $props();
 	const langs: Lang[] = ['fi', 'en'];
 </script>
 
@@ -16,18 +20,19 @@
 	style:font-weight="700"
 >
 	{#each langs as l (l)}
-		<button
-			type="button"
-			onclick={() => (lang = l)}
+		<a
+			href={resolve(localizeHref(page.url.pathname, { locale: l }) as Pathname)}
+			data-sveltekit-reload
 			style:padding="6px 14px"
 			style:border-radius="99px"
 			style:cursor="pointer"
-			style:border="none"
 			style:background={lang === l ? '#1a1a1a' : 'transparent'}
 			style:color={lang === l ? '#fff' : '#1a1a1a'}
 			style:text-transform="uppercase"
+			style:text-decoration="none"
+			aria-current={lang === l ? 'page' : undefined}
 		>
 			{l}
-		</button>
+		</a>
 	{/each}
 </div>

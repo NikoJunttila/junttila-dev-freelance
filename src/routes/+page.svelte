@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { browser } from '$app/environment';
 	import { COPY, theme as th, type Lang } from '$lib/content';
+	import { getLocale } from '$lib/paraglide/runtime';
 	import StickerNav from '$lib/components/StickerNav.svelte';
 	import StickerHero from '$lib/components/StickerHero.svelte';
 	import StickerServices from '$lib/components/StickerServices.svelte';
@@ -8,21 +8,10 @@
 	import StickerAbout from '$lib/components/StickerAbout.svelte';
 	import StickerProcess from '$lib/components/StickerProcess.svelte';
 	import StickerTestimonials from '$lib/components/StickerTestimonials.svelte';
-	import StickerBlog from '$lib/components/StickerBlog.svelte';
+	// import StickerBlog from '$lib/components/StickerBlog.svelte';
 	import StickerContact from '$lib/components/StickerContact.svelte';
 
-	let lang = $state<Lang>('fi');
-
-	$effect(() => {
-		if (!browser) return;
-		const saved = localStorage.getItem('jd_lang');
-		if (saved === 'fi' || saved === 'en') lang = saved;
-	});
-
-	$effect(() => {
-		if (browser) localStorage.setItem('jd_lang', lang);
-	});
-
+	const lang = $derived(getLocale() as Lang);
 	const t = $derived(COPY[lang]);
 </script>
 
@@ -42,14 +31,14 @@
 		style:color={th.ink}
 		style:position="relative"
 	>
-		<StickerNav {t} bind:lang />
+		<StickerNav {t} {lang} />
 		<StickerHero {t} />
 		<StickerServices {t} />
 		<StickerWork {t} {lang} />
 		<StickerAbout {t} />
 		<StickerProcess {t} />
 		<StickerTestimonials {t} {lang} />
-		<StickerBlog {t} />
+		<!-- <StickerBlog {t} /> -->
 		<StickerContact {t} />
 	</div>
 </div>

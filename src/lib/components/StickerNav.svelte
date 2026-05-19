@@ -3,14 +3,14 @@
 	import { theme as th } from '$lib/content';
 	import LangSwitch from './LangSwitch.svelte';
 
-	let { t, lang = $bindable() }: { t: Copy; lang: Lang } = $props();
+	let { t, lang }: { t: Copy; lang: Lang } = $props();
 
 	const navKeys: ('services' | 'work' | 'about' | 'process' | 'blog')[] = [
 		'services',
 		'work',
 		'about',
-		'process',
-		'blog'
+		'process'
+		// 'blog'
 	];
 </script>
 
@@ -22,13 +22,7 @@
 		style:padding="20px 56px"
 		style:gap="16px"
 	>
-		<a
-			href="#top"
-			class="jd-link"
-			style:display="flex"
-			style:align-items="center"
-			style:gap="12px"
-		>
+		<a href="#top" class="jd-link" style:display="flex" style:align-items="center" style:gap="12px">
 			<div
 				style:width="44px"
 				style:height="44px"
@@ -80,7 +74,7 @@
 			{/each}
 		</div>
 		<div style:display="flex" style:align-items="center" style:gap="14px">
-			<LangSwitch bind:lang />
+			<LangSwitch {lang} />
 			<a
 				href="#contact"
 				class="jd-btn jd-shadow-sun"

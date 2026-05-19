@@ -1,22 +1,11 @@
 <script lang="ts">
-	import { browser } from '$app/environment';
 	import { COPY, theme as th, type Lang } from '$lib/content';
+	import { getLocale } from '$lib/paraglide/runtime';
 	import LangSwitch from '$lib/components/LangSwitch.svelte';
 
 	let { data } = $props();
 
-	let lang = $state<Lang>('fi');
-
-	$effect(() => {
-		if (!browser) return;
-		const saved = localStorage.getItem('jd_lang');
-		if (saved === 'fi' || saved === 'en') lang = saved;
-	});
-
-	$effect(() => {
-		if (browser) localStorage.setItem('jd_lang', lang);
-	});
-
+	const lang = $derived(getLocale() as Lang);
 	const t = $derived(COPY[lang]);
 	const post = $derived(data.post[lang]);
 </script>
@@ -74,7 +63,7 @@
 				</div>
 			</a>
 			<div style:flex="1"></div>
-			<LangSwitch bind:lang />
+			<LangSwitch {lang} />
 		</header>
 
 		<article class="jd-section">
