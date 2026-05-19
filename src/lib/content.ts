@@ -110,13 +110,13 @@ export const COPY: Record<Lang, Copy> = {
       contact: 'Ota yhteyttä'
     },
     sectionKickers: {
-      services: '01 · palvelut',
-      work: '02 · työt',
-      about: '03 · minä',
-      process: '04 · prosessi',
-      testimonials: '05 · palautteet',
-      reading: '06 · luettavaa',
-      contact: '07 · yhteystiedot'
+      services: 'palvelut',
+      work: 'työt',
+      about: 'minä',
+      process: 'prosessi',
+      testimonials: 'palautteet',
+      reading: 'luettavaa',
+      contact: 'yhteystiedot'
     },
     hero: {
       kicker: 'Freelance-kehittäjä · Kokkola / etänä',
@@ -312,13 +312,13 @@ export const COPY: Record<Lang, Copy> = {
       contact: 'Contact'
     },
     sectionKickers: {
-      services: '01 · services',
-      work: '02 · work',
-      about: '03 · about',
-      process: '04 · process',
-      testimonials: '05 · testimonials',
-      reading: '06 · reading',
-      contact: '07 · contact'
+      services: 'services',
+      work: 'work',
+      about: 'about',
+      process: 'process',
+      testimonials: 'testimonials',
+      reading: 'reading',
+      contact: 'contact'
     },
     hero: {
       kicker: 'Freelance developer · Kokkola / remote',
