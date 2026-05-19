@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { page } from '$app/state';
 	import { COPY, theme as th, type Lang } from '$lib/content';
 	import { getLocale } from '$lib/paraglide/runtime';
 	import LangSwitch from '$lib/components/LangSwitch.svelte';
@@ -8,10 +9,30 @@
 	const lang = $derived(getLocale() as Lang);
 	const t = $derived(COPY[lang]);
 	const post = $derived(data.post[lang]);
+	const seoTitle = $derived(`${post.t} · junttila.dev`);
+	const seoDescription = $derived(`${post.tag} · ${post.date} · ${post.d}`);
+	const ogUrl = $derived(page.url.origin + page.url.pathname);
+	const ogImage = $derived(page.url.origin + '/og-image.svg');
 </script>
 
 <svelte:head>
-	<title>{post.t} · junttila.dev</title>
+	<title>{seoTitle}</title>
+	<meta name="description" content={seoDescription} />
+	<link rel="canonical" href={ogUrl} />
+
+	<meta property="og:type" content="article" />
+	<meta property="og:locale" content={lang === 'fi' ? 'fi_FI' : 'en_US'} />
+	<meta property="og:url" content={ogUrl} />
+	<meta property="og:title" content={seoTitle} />
+	<meta property="og:description" content={seoDescription} />
+	<meta property="og:image" content={ogImage} />
+	<meta property="article:published_time" content={post.date} />
+	<meta property="article:section" content={post.tag} />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={seoTitle} />
+	<meta name="twitter:description" content={seoDescription} />
+	<meta name="twitter:image" content={ogImage} />
 </svelte:head>
 
 <div id="site-wrap">

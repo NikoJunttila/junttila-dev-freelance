@@ -97,6 +97,7 @@ export type Copy = {
   footer: string;
   blogBack: string;
   blogPlaceholder: string;
+  seo: { title: string; description: string };
 };
 
 export const COPY: Record<Lang, Copy> = {
@@ -300,7 +301,12 @@ export const COPY: Record<Lang, Copy> = {
     footer: '© 2026 Niko Junttila · Kokkola, Suomi',
     blogBack: '← Takaisin etusivulle',
     blogPlaceholder:
-      'Tulossa pian. Tämä juttu on vielä työn alla — palaa myöhemmin uudestaan.'
+      'Tulossa pian. Tämä juttu on vielä työn alla — palaa myöhemmin uudestaan.',
+    seo: {
+      title: 'junttila.dev — freelance-kehittäjä Kokkolasta',
+      description:
+        'Niko Junttila, 6+ vuotta web-kehitystä. Nettisivut, verkkokaupat ja pienet työkalut yrittäjille selkeällä hinnalla, ihmisten kielellä.'
+    }
   },
   en: {
     nav: {
@@ -512,7 +518,12 @@ export const COPY: Record<Lang, Copy> = {
     },
     footer: '© 2026 Niko Junttila · Kokkola, Finland',
     blogBack: '← Back to home',
-    blogPlaceholder: "Coming soon. This post is still being written — check back later."
+    blogPlaceholder: "Coming soon. This post is still being written — check back later.",
+    seo: {
+      title: 'junttila.dev — freelance web developer in Kokkola',
+      description:
+        "Niko Junttila, 6+ years of web development. Websites, online stores and small tools for small businesses — at honest prices, in plain language."
+    }
   }
 };
 
@@ -634,7 +645,7 @@ export const PORTFOLIO: PortfolioItem[] = [
     href: 'https://junttila.dev/',
     image: ['/old_cv_cooking.png', '/old_cv_gym_tracking.png'],
     tag: { fi: 'Henkilökohtainen sivu', en: 'Personal site' },
-    year: '2023',
+    year: '2022',
     desc: {
       fi: 'Aiempi henkilökohtainen sivu — CV, kuntosaliharjoittelun seuranta ja reseptikokoelma.',
       en: 'Older personal site — CV, gym training tracker and recipe collection.'

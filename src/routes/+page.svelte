@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { page } from '$app/state';
 	import { COPY, theme as th, type Lang } from '$lib/content';
 	import { getLocale } from '$lib/paraglide/runtime';
 	import StickerNav from '$lib/components/StickerNav.svelte';
@@ -13,9 +14,27 @@
 
 	const lang = $derived(getLocale() as Lang);
 	const t = $derived(COPY[lang]);
+	const ogUrl = $derived(page.url.origin + page.url.pathname);
+	const ogImage = $derived(page.url.origin + '/og-image.svg');
 </script>
 
 <svelte:head>
+	<title>{t.seo.title}</title>
+	<meta name="description" content={t.seo.description} />
+	<link rel="canonical" href={ogUrl} />
+
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content={lang === 'fi' ? 'fi_FI' : 'en_US'} />
+	<meta property="og:url" content={ogUrl} />
+	<meta property="og:title" content={t.seo.title} />
+	<meta property="og:description" content={t.seo.description} />
+	<meta property="og:image" content={ogImage} />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={t.seo.title} />
+	<meta name="twitter:description" content={t.seo.description} />
+	<meta name="twitter:image" content={ogImage} />
+
 	<style>
 		html {
 			scroll-behavior: smooth;
