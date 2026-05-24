@@ -119,6 +119,42 @@
 						</span>
 					{/each}
 				</div>
+				{#if s.examples && s.examples.length > 0}
+					<div
+						style:margin-top="14px"
+						style:padding-top="12px"
+						style:border-top="1.5px dashed {isCustom ? th.paper + '40' : th.ink + '33'}"
+					>
+						<div
+							style:font-family={th.body}
+							style:font-size="10px"
+							style:font-weight="800"
+							style:text-transform="uppercase"
+							style:letter-spacing="1.2px"
+							style:color={isCustom ? th.sun : th.inkSoft}
+							style:margin-bottom="6px"
+						>
+							{t.servicesExampleLabel}
+						</div>
+						<div style:display="flex" style:flex-direction="column" style:gap="4px">
+							{#each s.examples as ex (ex.url)}
+								<a
+									href={ex.url}
+									target="_blank"
+									rel="noopener noreferrer"
+									style:font-family={th.mono}
+									style:font-size="12px"
+									style:color={isCustom ? th.sun : th.coral}
+									style:font-weight="700"
+									style:text-decoration="underline"
+									style:text-underline-offset="3px"
+								>
+									↗ {ex.label}
+								</a>
+							{/each}
+						</div>
+					</div>
+				{/if}
 			</div>
 		{/each}
 	</div>

@@ -1,5 +1,7 @@
 export type Lang = 'fi' | 'en';
 
+export type ServiceExample = { label: string; url: string };
+
 export type Service = {
   tag: string;
   title: string;
@@ -8,6 +10,7 @@ export type Service = {
   from: string;
   body: string;
   bullets: string[];
+  examples?: ServiceExample[];
 };
 
 export type HourlyItem = { icon: string; t: string; d: string };
@@ -58,6 +61,7 @@ export type Copy = {
   };
   servicesH: string;
   servicesSub: string;
+  servicesExampleLabel: string;
   services: Service[];
   hourly: Hourly;
   hostingTitle: string;
@@ -132,6 +136,7 @@ export const COPY: Record<Lang, Copy> = {
     servicesH: 'Mitä voin tehdä sinulle',
     servicesSub:
       'Selkeät aloitushinnat. Ei piilolaskuja, ei kuukausimaksuja minulle — kerron heti, mitä saat ja mistä maksat.',
+    servicesExampleLabel: 'Esimerkki',
     services: [
       {
         tag: '01',
@@ -140,7 +145,8 @@ export const COPY: Record<Lang, Copy> = {
         price: '200€',
         from: 'alkaen',
         body: 'Kaunis, nopea ja mobiili-optimoitu sivu, joka kertoo mitä teet ja saa asiakkaan ottamaan yhteyttä. Sopii pienyrittäjälle, taiteilijalle tai harrastajalle.',
-        bullets: ['Mobiili & nopea', 'Oma domain & SSL', 'Yhteydenottolomake']
+        bullets: ['Mobiili & nopea', 'Oma domain & SSL', 'Yhteydenottolomake'],
+        examples: [{ label: 'esanverhoilu.fi', url: 'https://www.esanverhoilu.fi/' }]
       },
       {
         tag: '02',
@@ -149,7 +155,10 @@ export const COPY: Record<Lang, Copy> = {
         price: '400€',
         from: 'alkaen',
         body: 'Klassinen valinta jos haluat lisätä uutisia, kuvia tai tuotteita itse. Annan kirjalliset ohjeet ja pidetään yhdessä lyhyt opastus.',
-        bullets: ['Käytön opastus', 'Helppo päivittää', 'Kirjalliset ohjeet']
+        bullets: ['Käytön opastus', 'Helppo päivittää', 'Kirjalliset ohjeet'],
+        examples: [
+          { label: 'Mikä on WordPress? (kinsta.com)', url: 'https://kinsta.com/blog/what-is-wordpress/' }
+        ]
       },
       {
         tag: '03',
@@ -158,7 +167,11 @@ export const COPY: Record<Lang, Copy> = {
         price: '500€',
         from: 'alkaen',
         body: 'Tuotteet, maksaminen ja toimitukset toimimaan. Sovin yhdessä kanssasi maksunvälittäjän ja postituksen — ei tarvitse osata ennalta.',
-        bullets: ['Maksunvälitys', 'Toimituslogiikka', 'Varaston hallinta']
+        bullets: ['Maksunvälitys', 'Toimituslogiikka', 'Varaston hallinta'],
+        examples: [
+          { label: 'woo.junttila.dev', url: 'https://woo.junttila.dev/' },
+          { label: 'store.junttila.dev', url: 'https://store.junttila.dev/' }
+        ]
       },
       {
         tag: '04',
@@ -339,6 +352,7 @@ export const COPY: Record<Lang, Copy> = {
     servicesH: 'What I can build for you',
     servicesSub:
       'Clear starting prices. No hidden fees, no monthly bills to me — I tell you up-front what you get and what you pay.',
+    servicesExampleLabel: 'Example',
     services: [
       {
         tag: '01',
@@ -347,7 +361,8 @@ export const COPY: Record<Lang, Copy> = {
         price: '200€',
         from: 'from',
         body: 'A clean, fast, mobile-friendly page that says what you do and gets people to contact you. Perfect for a one-person business, an artist, or a side project.',
-        bullets: ['Mobile & fast', 'Own domain & SSL', 'Contact form']
+        bullets: ['Mobile & fast', 'Own domain & SSL', 'Contact form'],
+        examples: [{ label: 'esanverhoilu.fi', url: 'https://www.esanverhoilu.fi/' }]
       },
       {
         tag: '02',
@@ -356,7 +371,10 @@ export const COPY: Record<Lang, Copy> = {
         price: '400€',
         from: 'from',
         body: 'The classic pick if you want to post news, photos or products yourself. I write up plain instructions and walk you through it.',
-        bullets: ['Live training', 'Easy to update', 'Written guide']
+        bullets: ['Live training', 'Easy to update', 'Written guide'],
+        examples: [
+          { label: 'What is WordPress? (kinsta.com)', url: 'https://kinsta.com/blog/what-is-wordpress/' }
+        ]
       },
       {
         tag: '03',
@@ -365,7 +383,11 @@ export const COPY: Record<Lang, Copy> = {
         price: '500€',
         from: 'from',
         body: "Products, payments and shipping wired up. I help you pick the payment provider and shipping flow — you don't need to know anything ahead.",
-        bullets: ['Payments', 'Shipping logic', 'Inventory']
+        bullets: ['Payments', 'Shipping logic', 'Inventory'],
+        examples: [
+          { label: 'woo.junttila.dev', url: 'https://woo.junttila.dev/' },
+          { label: 'store.junttila.dev', url: 'https://store.junttila.dev/' }
+        ]
       },
       {
         tag: '04',
