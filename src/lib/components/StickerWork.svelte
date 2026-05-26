@@ -223,14 +223,27 @@
 						aria-label={item.name}
 						aria-current={i === index}
 						onclick={() => jump(i)}
-						style:height="12px"
-						style:border-radius="99px"
-						style:border="2px solid {th.ink}"
-						style:background={i === index ? th.coral : th.paper}
-						style:cursor="pointer"
+						style:height="24px"
+						style:min-width="24px"
+						style:display="inline-flex"
+						style:align-items="center"
+						style:justify-content="center"
+						style:background="transparent"
+						style:border="none"
 						style:padding="0"
-						style:width={i === index ? '34px' : '12px'}
-					></button>
+						style:cursor="pointer"
+					>
+						<span
+							aria-hidden="true"
+							style:display="block"
+							style:height="12px"
+							style:width={i === index ? '34px' : '12px'}
+							style:border-radius="99px"
+							style:border="2px solid {th.ink}"
+							style:background={i === index ? th.coral : th.paper}
+							style:transition="width 0.25s ease, background 0.25s ease"
+						></span>
+					</button>
 				{/each}
 			</div>
 

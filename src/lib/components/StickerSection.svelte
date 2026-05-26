@@ -7,6 +7,8 @@
 		sub = '',
 		color = th.mint
 	}: { kicker: string; title: string; sub?: string; color?: string } = $props();
+
+	const kickerInk = color === th.coral ? th.paper : th.ink;
 </script>
 
 <div style:margin-bottom="44px">
@@ -20,7 +22,7 @@
 		style:font-size="12px"
 		style:letter-spacing="1px"
 		style:text-transform="uppercase"
-		style:color={th.ink}
+		style:color={kickerInk}
 		style:font-weight="800"
 		style:margin-bottom="18px"
 	>

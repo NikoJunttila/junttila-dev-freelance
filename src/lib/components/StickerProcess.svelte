@@ -42,7 +42,7 @@
 					style:place-items="center"
 					style:font-family={th.display}
 					style:font-size="22px"
-					style:color={th.ink}
+					style:color={colors[i] === th.coral ? th.paper : th.ink}
 					style:margin-bottom="16px"
 				>
 					{p.n}

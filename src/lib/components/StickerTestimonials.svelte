@@ -172,7 +172,7 @@
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		font-family: 'Plus Jakarta Sans', sans-serif;
+		font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 		font-weight: 800;
 		font-size: 13px;
 		color: #fffcf3;

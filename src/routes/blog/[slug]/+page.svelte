@@ -35,7 +35,7 @@
 	<meta name="twitter:image" content={ogImage} />
 </svelte:head>
 
-<div id="site-wrap">
+<main id="site-wrap">
 	<div
 		style:width="100%"
 		style:background={th.bg}
@@ -156,7 +156,7 @@
 			</div>
 		</article>
 	</div>
-</div>
+</main>
 
 <style>
 	@media (max-width: 1024px) {

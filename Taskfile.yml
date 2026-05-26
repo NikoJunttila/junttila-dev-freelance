@@ -62,3 +62,11 @@ tasks:
     cmds:
       - task: clean
       - deno install
+
+
+  playwright:cli:check:
+      desc: Verify the Playwright CLI (@playwright/cli) and Chromium are reachable
+      cmds:
+        - echo -e "{{.CYAN}}Checking Playwright CLI...{{.NC}}"
+        - npx -y @playwright/cli@latest --help > /dev/null 2>&1 && echo -e "{{.GREEN}}OK — Playwright CLI is installable.{{.NC}}" || (echo -e "{{.YELLOW}}First run will install it via npx -y; that's fine.{{.NC}}" && exit 0)
+        - npx playwright install chromium --dry-run > /dev/null 2>&1 && echo -e "{{.GREEN}}OK — Chromium browser binary present.{{.NC}}" || echo -e "{{.YELLOW}}Run 'npx playwright install chromium' if the CLI can't find a browser.{{.NC}}"

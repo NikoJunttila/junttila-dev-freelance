@@ -694,11 +694,11 @@ export const theme = {
   mint: '#A8D5B8',
   mintDeep: '#5C9A7B',
   sun: '#F4C95D',
-  coral: '#F08A5D',
+  coral: '#B0421E',
   pink: '#F0B7B7',
-  display: 'Caprasimo, "DM Serif Display", serif',
-  body: '"Plus Jakarta Sans", "Manrope", sans-serif',
-  mono: '"JetBrains Mono", monospace'
+  display: 'ui-serif, Georgia, Cambria, "Times New Roman", Times, serif',
+  body: 'ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
+  mono: 'ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace'
 };
 
 export function findBlogPost(slug: string): { fi: BlogPost; en: BlogPost } | null {

@@ -108,7 +108,7 @@
 			href="#contact"
 			class="jd-btn jd-shadow-ink"
 			style:background={th.coral}
-			style:color={th.ink}
+			style:color={th.paper}
 			style:border="2.5px solid {th.ink}"
 			style:border-radius="99px"
 			style:padding="16px 28px"

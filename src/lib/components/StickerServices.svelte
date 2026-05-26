@@ -48,7 +48,7 @@
 					style:font-family={th.mono}
 					style:font-size="11px"
 					style:font-weight="800"
-					style:color={th.ink}
+					style:color={tints[i] === th.coral ? th.paper : th.ink}
 					style:letter-spacing="1px"
 				>
 					{s.tag}
@@ -148,6 +148,9 @@
 									style:font-weight="700"
 									style:text-decoration="underline"
 									style:text-underline-offset="3px"
+									style:padding="6px 0"
+									style:line-height="1"
+									style:display="inline-block"
 								>
 									↗ {ex.label}
 								</a>
@@ -172,7 +175,7 @@
 			style:font-family={th.mono}
 			style:font-size="11px"
 			style:font-weight="800"
-			style:color={th.ink}
+			style:color={th.paper}
 			style:letter-spacing="1px"
 			style:z-index="2"
 		>

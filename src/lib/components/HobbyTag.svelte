@@ -10,7 +10,7 @@
 	style:border="2.5px solid #1a1a1a"
 	style:border-radius="99px"
 	style:padding="8px 16px"
-	style:font-family='"Plus Jakarta Sans", sans-serif'
+	style:font-family='ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif'
 	style:font-weight="700"
 	style:font-size="14px"
 	style:color="#1a1a1a"

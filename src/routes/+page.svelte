@@ -42,7 +42,7 @@
 	</style>
 </svelte:head>
 
-<div id="site-wrap">
+<main id="site-wrap">
 	<div
 		style:width="100%"
 		style:background={th.bg}
@@ -60,4 +60,4 @@
 		<!-- <StickerBlog {t} /> -->
 		<StickerContact {t} />
 	</div>
-</div>
+</main>

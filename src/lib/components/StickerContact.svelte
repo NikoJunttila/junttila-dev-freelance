@@ -88,7 +88,7 @@
 			style:font-family={th.body}
 			style:font-size="19px"
 			style:line-height="1.5"
-			style:color={th.ink}
+			style:color={th.paper}
 			style:margin-top="22px"
 			style:max-width="540px"
 			style:font-weight="500"
@@ -322,11 +322,18 @@
 		style:align-items="center"
 		style:font-family={th.body}
 		style:font-size="13px"
-		style:color={th.ink}
+		style:color={th.paper}
 		style:font-weight="600"
 	>
 		<div>{t.footer}</div>
-		<div style:display="flex" style:gap="24px">
+		<div
+			style:display="flex"
+			style:gap="24px"
+			style:position="relative"
+			style:background={th.coral}
+			style:padding="4px 10px"
+			style:border-radius="10px"
+		>
 			<a
 				href="https://{CONTACT.github}"
 				target="_blank"
@@ -355,7 +362,7 @@
 
 <style>
 	.jd-input {
-		font-family: 'Plus Jakarta Sans', sans-serif;
+		font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 		font-size: 16px;
 		color: #1a1a1a;
 		background: #fffcf3;
@@ -377,10 +384,10 @@
 	.jd-textarea {
 		resize: vertical;
 		min-height: 120px;
-		font-family: 'Plus Jakarta Sans', sans-serif;
+		font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	}
 	.jd-field-error {
-		font-family: 'Plus Jakarta Sans', sans-serif;
+		font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 		font-size: 12px;
 		font-weight: 700;
 	}
