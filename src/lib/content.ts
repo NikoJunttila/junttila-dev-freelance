@@ -128,7 +128,7 @@ export const COPY: Record<Lang, Copy> = {
       title1: 'Nettisivut',
       title2: 'jotka palvelevat sinua.',
       title3: '',
-      body: 'Olen Niko, 6v+ kokemusta web-kehityksestä. Rakennan sivut, verkkokaupat ja työkalut yrittäjille, harrastajille ja arjen ammattilaisille — selkeällä hinnalla, ihmisten kielellä.',
+      body: 'Olen Niko, 6v+ kokemusta web-kehityksestä. Rakennan sivut, verkkokaupat ja työkalut yrittäjille, harrastajille ja arjen ammattilaisille — selkeällä hinnalla, selkokielellä.',
       cta1: 'Pyydä tarjous',
       cta2: 'Katso työt',
       meta: ['6+ v. kokemusta', 'Suomeksi & englanniksi', 'Hosting alk. 10€/kk']
@@ -166,11 +166,11 @@ export const COPY: Record<Lang, Copy> = {
         sub: 'Myynti auki 24/7',
         price: '500€',
         from: 'alkaen',
-        body: 'Tuotteet, maksaminen ja toimitukset toimimaan. Sovin yhdessä kanssasi maksunvälittäjän ja postituksen — ei tarvitse osata ennalta.',
+        body: 'Kaksi vaihtoehtoa: WooCommerce, jota voit itse muokata helpommin, tai räätälöity kauppa Vendure-pohjalla — nopeampi ja taipuu tarpeisiisi paremmin.',
         bullets: ['Maksunvälitys', 'Toimituslogiikka', 'Varaston hallinta'],
         examples: [
-          { label: 'woo.junttila.dev', url: 'https://woo.junttila.dev/' },
-          { label: 'store.junttila.dev', url: 'https://store.junttila.dev/' }
+          { label: 'woo.junttila.dev (WooCommerce)', url: 'https://woo.junttila.dev/' },
+          { label: 'store.junttila.dev (räätälöity / Vendure)', url: 'https://store.junttila.dev/' }
         ]
       },
       {
@@ -194,6 +194,7 @@ export const COPY: Record<Lang, Copy> = {
         { icon: '🤖', t: 'AI-opastus & agentit', d: 'Claude, Cursor ja muut työkalut käytäntöön.' },
         { icon: '💬', t: 'Botit & integraatiot', d: 'Discord-botit, automaatiot, API-liimaukset.' },
         { icon: '📊', t: 'Data & analytiikka', d: 'Raportit, dashboardit, mittarit selkeästi.' },
+        { icon: '📣', t: 'Verkkomainonta', d: 'Google-, Facebook- ja TikTok-kampanjat.' },
         { icon: '⚡', t: 'CLI & skriptit', d: 'Toistuvat työt automaattisiksi.' },
         { icon: '📱', t: 'Mobiilisovellukset', d: 'Pienet iOS/Android-projektit.' },
         { icon: '🧭', t: 'Konsultointi & sparrausta', d: 'Toinen mielipide tai tekninen sanasto käännös.' }
@@ -211,20 +212,18 @@ export const COPY: Record<Lang, Copy> = {
       price: '+100€ kerralla',
       body: 'Pystytän sinulle omaan pilveen ja näytän käytön. Sen jälkeen et maksa minulle senttiäkään.'
     },
-    workH: 'Tehtyjä töitä',
-    workSub:
-      'Oikeita asiakkaita, oikeita yrityksiä. Pieniä ja keskikokoisia — juuri sellaisia, joiden parissa viihdyn.',
+    workH: 'Tehtyjä projecteja',
     aboutH: 'Tervehdys, olen Niko',
     aboutBody1:
-      'Olen tehnyt web-kehitystä yli kuusi vuotta. Olen työskennellyt isoissa firmoissa ja pienissä — ja huomasin, että pienet asiakkaat saavat usein huonointa palvelua: ylihintaista, hidasta ja täynnä turhia sanoja.',
+      'Olen tehnyt web-kehitystä yli kuusi vuotta monenlaisissa projekteissa. Yksi asia on toistunut: projektit kasvavat monimutkaisemmiksi kuin niiden tarvitsisi, ja yksinkertaiset asiat selitetään vaikealla tavalla — joskus hinnan oikeuttamiseksi, joskus saadakseen homman kuulostamaan vaikeammalta kuin se on.',
     aboutBody2:
-      'Halusin korjata sen. Siksi teen tätä freelancena suoraan ihmisille ja pienille yrityksille: selkeä hinta, suora kontakti, koodi joka toimii.',
+      'Halusin tehdä sen toisin. Siksi teen tätä freelancena suoraan ihmisille ja pienille yrityksille: selkeä hinta, selkokielinen puhe, koodi joka toimii.',
     aboutBody3:
-      'Töiden ulkopuolella treenaan salilla, käyn vaeltamassa ja uin. Pohjanmaalla on tilaa molemmille.',
+      'Töiden ulkopuolella tykkään treenata salilla, käydä vaeltamassa ja uida.',
     aboutStats: [
       ['6+', 'vuotta kokemusta'],
       ['15+', 'tuotannossa olevaa sivua'],
-      ['100%', 'ihmisten kielellä']
+      ['100%', 'selkokielellä']
     ],
     processH: 'Miten työskennellään',
     processSub: 'Yksinkertaista. Ei tuntien kokouksia, ei jargonia.',
@@ -318,7 +317,7 @@ export const COPY: Record<Lang, Copy> = {
     seo: {
       title: 'junttila.dev — freelance-kehittäjä Kokkolasta',
       description:
-        'Niko Junttila, 6+ vuotta web-kehitystä. Nettisivut, verkkokaupat ja pienet työkalut yrittäjille selkeällä hinnalla, ihmisten kielellä.'
+        'Niko Junttila, 6+ vuotta web-kehitystä. Nettisivut, verkkokaupat ja pienet työkalut yrittäjille selkeällä hinnalla, selkokielellä.'
     }
   },
   en: {
@@ -344,7 +343,7 @@ export const COPY: Record<Lang, Copy> = {
       title1: 'Websites',
       title2: 'built for you.',
       title3: '',
-      body: "I'm Niko. Six-plus years of web development. I build sites, stores and tools for small businesses, hobbyists and everyday pros — at honest prices, in plain language.",
+      body: "I'm Niko. Six-plus years of web development. I build sites, stores and tools for small businesses, hobbyists and everyday pros — at honest prices, easy to understand.",
       cta1: 'Get a quote',
       cta2: 'See my work',
       meta: ['6+ years building', 'Finnish & English', 'Hosting from 10€/mo']
@@ -382,11 +381,11 @@ export const COPY: Record<Lang, Copy> = {
         sub: 'Selling 24/7',
         price: '500€',
         from: 'from',
-        body: "Products, payments and shipping wired up. I help you pick the payment provider and shipping flow — you don't need to know anything ahead.",
+        body: 'Two options: WooCommerce, which you can more easily customize yourself, or a custom store backed by Vendure — faster and more tailored to your needs.',
         bullets: ['Payments', 'Shipping logic', 'Inventory'],
         examples: [
-          { label: 'woo.junttila.dev', url: 'https://woo.junttila.dev/' },
-          { label: 'store.junttila.dev', url: 'https://store.junttila.dev/' }
+          { label: 'woo.junttila.dev (WooCommerce)', url: 'https://woo.junttila.dev/' },
+          { label: 'store.junttila.dev (custom / Vendure)', url: 'https://store.junttila.dev/' }
         ]
       },
       {
@@ -415,6 +414,11 @@ export const COPY: Record<Lang, Copy> = {
           d: 'Reports, dashboards, metrics you understand.'
         },
         {
+          icon: '📣',
+          t: 'Online advertising',
+          d: 'Google, Facebook and TikTok campaigns.'
+        },
+        {
           icon: '⚡',
           t: 'CLI scripts & automation',
           d: 'Turn repetitive tasks into one command.'
@@ -439,19 +443,17 @@ export const COPY: Record<Lang, Copy> = {
       price: '+100€ once',
       body: 'I set you up on your own cloud and show you the ropes. After that you pay me zero euros forever.'
     },
-    workH: 'Recent work',
-    workSub:
-      'Real customers, real businesses. Small and medium — exactly the kind I love working with.',
+    workH: 'Recent works',
     aboutH: "Hi, I'm Niko",
     aboutBody1:
-      "I've been doing web development for over six years. I've worked at big shops and tiny ones — and I noticed small clients often get the worst service: overpriced, slow, full of empty words.",
+      "I've been doing web development for over six years across all kinds of projects. One thing keeps repeating: projects grow more complicated than they need to be, and simple things get explained in hard ways — sometimes to justify the price, sometimes just to make the work sound harder than it is.",
     aboutBody2:
-      'I wanted to fix that. So I freelance directly for people and small businesses: clear pricing, direct contact, code that actually works.',
-    aboutBody3: 'Outside of work I lift, hike and swim. Ostrobothnia has room for both worlds.',
+      'I wanted to do it differently. So I freelance directly for people and small businesses: clear pricing, plain language, code that actually works.',
+    aboutBody3: 'Outside of work I like lifting, hiking and swimming.',
     aboutStats: [
       ['6+', 'years of experience'],
-      ['15+', 'sites in production'],
-      ['100%', 'in plain language']
+      ['10+', 'sites in production'],
+      ['100%', 'easy to understand']
     ],
     processH: 'How we work together',
     processSub: 'Simple. No long meetings, no jargon.',
@@ -544,7 +546,7 @@ export const COPY: Record<Lang, Copy> = {
     seo: {
       title: 'junttila.dev — freelance web developer in Kokkola',
       description:
-        "Niko Junttila, 6+ years of web development. Websites, online stores and small tools for small businesses — at honest prices, in plain language."
+        "Niko Junttila, 6+ years of web development. Websites, online stores and small tools for small businesses — at honest prices, easy to understand."
     }
   }
 };

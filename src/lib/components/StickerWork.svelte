@@ -64,7 +64,6 @@
 	<StickerSection
 		kicker={t.sectionKickers.work}
 		title={t.workH}
-		sub={t.workSub}
 		color={th.coral}
 	/>
 
