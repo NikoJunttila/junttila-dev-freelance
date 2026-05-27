@@ -22,32 +22,17 @@
 		style:padding="20px 56px"
 		style:gap="16px"
 	>
-		<a href="#top" class="jd-link" style:display="flex" style:align-items="center" style:gap="12px">
-			<div
-				style:width="44px"
-				style:height="44px"
-				style:background={th.sun}
-				style:border="2px solid {th.ink}"
-				style:border-radius="14px"
-				style:display="grid"
-				style:place-items="center"
-				style:font-family={th.display}
-				style:font-size="22px"
-				style:color={th.ink}
-				style:transform="rotate(-6deg)"
-				style:box-shadow="3px 3px 0 {th.ink}"
-			>
-				n
-			</div>
-			<div
-				class="jd-nav-brand-text"
-				style:font-family={th.body}
-				style:font-weight="800"
-				style:color={th.ink}
-				style:font-size="18px"
-			>
-				junttila.dev
-			</div>
+		<a href="#top" class="jd-link" style:display="flex" style:align-items="center">
+			<img
+				src="/junttila_dev.webp"
+				alt="junttila.dev"
+				width="300"
+				height="250"
+				class="jd-nav-logo"
+				style:height="64px"
+				style:width="auto"
+				style:display="block"
+			/>
 		</a>
 		<div
 			class="jd-nav-center"

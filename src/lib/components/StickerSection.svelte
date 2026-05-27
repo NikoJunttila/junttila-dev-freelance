@@ -8,7 +8,7 @@
 		color = th.mint
 	}: { kicker: string; title: string; sub?: string; color?: string } = $props();
 
-	const kickerInk = color === th.coral ? th.paper : th.ink;
+	const kickerInk = $derived(color === th.coral ? th.paper : th.ink);
 </script>
 
 <div style:margin-bottom="44px">

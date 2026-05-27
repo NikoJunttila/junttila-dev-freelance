@@ -240,7 +240,7 @@ button {
 	.jd-nav-row {
 		padding: 12px 20px !important;
 	}
-	.jd-nav-brand-text {
-		display: none;
+	.jd-nav-logo {
+		height: 52px;
 	}
 }
