@@ -59,6 +59,26 @@
 			{/each}
 		</div>
 		<div style:display="flex" style:align-items="center" style:gap="14px">
+			<a
+				href="/ai"
+				class="jd-nav-ai"
+				style:display="inline-flex"
+				style:align-items="center"
+				style:gap="6px"
+				style:background={th.mint}
+				style:color={th.ink}
+				style:border="2px solid {th.ink}"
+				style:border-radius="99px"
+				style:padding="10px 16px"
+				style:font-family={th.body}
+				style:font-weight="700"
+				style:font-size="13px"
+				style:box-shadow="3px 3px 0 {th.ink}"
+				style:text-decoration="none"
+			>
+				<span aria-hidden="true">✨</span>
+				{t.nav.ai}
+			</a>
 			<LangSwitch {lang} />
 			<a
 				href="#contact"

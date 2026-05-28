@@ -46,8 +46,25 @@ export type SectionKey =
   | 'reading'
   | 'contact';
 
+export type AiCopy = {
+  kicker: string;
+  title: string;
+  sub: string;
+  disclaimer: string;
+  intro: string;
+  placeholder: string;
+  send: string;
+  sending: string;
+  thinking: string;
+  ctaContact: string;
+  errorRateLimit: string;
+  errorGeneric: string;
+  clearChat: string;
+  examples: string[];
+};
+
 export type Copy = {
-  nav: Record<'services' | 'work' | 'about' | 'process' | 'blog' | 'contact', string>;
+  nav: Record<'services' | 'work' | 'about' | 'process' | 'blog' | 'contact' | 'ai', string>;
   sectionKickers: Record<SectionKey, string>;
   hero: {
     kicker: string;
@@ -101,6 +118,7 @@ export type Copy = {
   footer: string;
   blogBack: string;
   blogPlaceholder: string;
+  ai: AiCopy;
   seo: { title: string; description: string };
 };
 
@@ -112,7 +130,8 @@ export const COPY: Record<Lang, Copy> = {
       about: 'Minä',
       process: 'Prosessi',
       blog: 'Blogi',
-      contact: 'Ota yhteyttä'
+      contact: 'Ota yhteyttä',
+      ai: 'AI-arvio'
     },
     sectionKickers: {
       services: 'palvelut',
@@ -314,6 +333,28 @@ export const COPY: Record<Lang, Copy> = {
     blogBack: '← Takaisin etusivulle',
     blogPlaceholder:
       'Tulossa pian. Tämä juttu on vielä työn alla — palaa myöhemmin uudestaan.',
+    ai: {
+      kicker: 'AI-demo',
+      title: 'Pyydä tekoälyltä karkea arvio',
+      sub: 'Kerro lyhyesti projektistasi ja saat arvion sopivasta palvelutasosta. Vastaukset suoratoistuvat reaaliajassa — sama Kimi K2 -malli mihin Niko on rakentanut integraation.',
+      disclaimer:
+        'Huom: nämä ovat AI:n karkeita arvioita. Vahvista lopullinen hinta ja aikataulu aina Nikolta.',
+      intro:
+        'Hei! Olen Nikon AI-assistentti. Kuvaile projektisi muutamalla lauseella — mitä tarvitset, kenelle se on, ja onko mielessä jotain erityistä. Arvioin minkä palvelutason se vastaa.',
+      placeholder: 'Esim. "Haluan yhden sivun esittelysivun pienelle leipomolle, jossa on yhteydenottolomake…"',
+      send: 'Lähetä',
+      sending: 'Lähetetään…',
+      thinking: 'Miettii…',
+      ctaContact: 'Hyvältä kuulostaa? Ota yhteyttä Nikoon →',
+      errorRateLimit: 'Hidasta hieman! Yritä uudestaan minuutin kuluttua.',
+      errorGeneric: 'Jokin meni pieleen. Yritä uudestaan tai ota suoraan yhteyttä.',
+      clearChat: 'Tyhjennä keskustelu',
+      examples: [
+        'Tarvitsen verkkokaupan käsintehdyille koruille',
+        'Haluan blogi-sivun, jota pystyn päivittämään itse',
+        'Etsin freelancerin tunneilla tekemään pieniä korjauksia'
+      ]
+    },
     seo: {
       title: 'junttila.dev — freelance-kehittäjä Kokkolasta',
       description:
@@ -327,7 +368,8 @@ export const COPY: Record<Lang, Copy> = {
       about: 'About',
       process: 'Process',
       blog: 'Blog',
-      contact: 'Contact'
+      contact: 'Contact',
+      ai: 'AI estimate'
     },
     sectionKickers: {
       services: 'services',
@@ -543,6 +585,28 @@ export const COPY: Record<Lang, Copy> = {
     footer: '© 2026 Niko Junttila · Kokkola, Finland',
     blogBack: '← Back to home',
     blogPlaceholder: "Coming soon. This post is still being written — check back later.",
+    ai: {
+      kicker: 'AI demo',
+      title: 'Ask the AI for a rough estimate',
+      sub: 'Describe your project briefly and the AI suggests which service tier fits. Replies stream in real time — same Kimi K2 model that Niko wires into production.',
+      disclaimer:
+        "Heads up: these are AI estimates. Always confirm the final price and timeline with Niko.",
+      intro:
+        "Hi! I'm Niko's AI assistant. Describe your project in a few sentences — what you need, who it's for, and any specifics — and I'll suggest which service tier fits.",
+      placeholder: 'e.g. "I want a one-page landing site for a small bakery with a contact form…"',
+      send: 'Send',
+      sending: 'Sending…',
+      thinking: 'Thinking…',
+      ctaContact: 'Sounds good? Get in touch with Niko →',
+      errorRateLimit: 'Slow down a bit! Try again in a minute.',
+      errorGeneric: 'Something went wrong. Try again or contact Niko directly.',
+      clearChat: 'Clear chat',
+      examples: [
+        'I need an online store for handmade jewelry',
+        'I want a blog I can update myself',
+        'Looking for someone hourly to fix small bugs'
+      ]
+    },
     seo: {
       title: 'junttila.dev — freelance web developer in Kokkola',
       description:
