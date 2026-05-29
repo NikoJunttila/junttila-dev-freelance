@@ -13,9 +13,11 @@
 	style:background="{th.sun}40"
 	style:position="relative"
 	style:display="grid"
-	style:grid-template-columns="1.3fr 1fr"
+	style:grid-template-columns="minmax(0, 1.3fr) minmax(0, 1fr)"
 	style:gap="56px"
 	style:align-items="start"
+	style:min-width="0"
+	style:overflow="hidden"
 >
 	<div>
 		<StickerSection kicker={t.sectionKickers.about} title={t.aboutH} color={th.pink} />
@@ -32,8 +34,9 @@
 			<p style:margin-top="16px" style:color={th.inkSoft}>{t.aboutBody3}</p>
 		</div>
 		<div
+			class="jd-about-stats"
 			style:display="grid"
-			style:grid-template-columns="repeat(3, 1fr)"
+			style:grid-template-columns="repeat(3, minmax(0, 1fr))"
 			style:gap="14px"
 			style:margin-top="36px"
 			style:max-width="600px"
