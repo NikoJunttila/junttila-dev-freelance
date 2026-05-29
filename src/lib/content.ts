@@ -336,7 +336,7 @@ export const COPY: Record<Lang, Copy> = {
     ai: {
       kicker: 'AI-demo',
       title: 'Pyydä tekoälyltä karkea arvio',
-      sub: 'Kerro lyhyesti projektistasi ja saat arvion sopivasta palvelutasosta. Vastaukset suoratoistuvat reaaliajassa — sama Kimi K2 -malli mihin Niko on rakentanut integraation.',
+      sub: 'Kerro lyhyesti projektistasi ja saat arvion sopivasta palvelutasosta. Vastaukset suoratoistuvat reaaliajassa — sama AI-integraatiotekniikka, jollaisia Niko rakentaa myös asiakkailleen.',
       disclaimer:
         'Huom: nämä ovat AI:n karkeita arvioita. Vahvista lopullinen hinta ja aikataulu aina Nikolta.',
       intro:
@@ -588,7 +588,7 @@ export const COPY: Record<Lang, Copy> = {
     ai: {
       kicker: 'AI demo',
       title: 'Ask the AI for a rough estimate',
-      sub: 'Describe your project briefly and the AI suggests which service tier fits. Replies stream in real time — same Kimi K2 model that Niko wires into production.',
+      sub: 'Describe your project briefly and the AI suggests which service tier fits. Replies stream in real time — the same kind of AI integration Niko builds for clients.',
       disclaimer:
         "Heads up: these are AI estimates. Always confirm the final price and timeline with Niko.",
       intro:

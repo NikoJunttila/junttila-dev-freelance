@@ -56,18 +56,11 @@ export const POST: RequestHandler = async ({ request, getClientAddress }) => {
     console.error('MOONSHOT_API_KEY is not set — /ai endpoint cannot reach the model.');
     throw error(500, 'missing_api_key');
   }
-  const model = env.MOONSHOT_MODEL || 'kimi-k2.6';
-
   const upstreamBody = {
-    model,
+    model: 'moonshot-v1-32k',
     stream: true,
-    // kimi-k2.6 thinking-disabled mode requires temperature=0.6 specifically.
-    // (Thinking-enabled mode requires temperature=1.)
-    temperature: 0.6,
+    temperature: 0.4,
     max_tokens: 800,
-    // Skip extended reasoning — scope estimation doesn't need it, and the
-    // default thinking mode adds many seconds of latency before the first token.
-    thinking: { type: 'disabled' },
     messages: [
       { role: 'system' as const, content: buildSystemPrompt({ locale, today }) },
       ...cleaned
