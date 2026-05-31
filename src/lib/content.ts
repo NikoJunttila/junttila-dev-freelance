@@ -147,14 +147,14 @@ export const COPY: Record<Lang, Copy> = {
       title1: 'Nettisivut',
       title2: 'jotka palvelevat sinua.',
       title3: '',
-      body: 'Olen Niko, 6v+ kokemusta web-kehityksestä. Rakennan sivut, verkkokaupat ja työkalut yrittäjille, harrastajille ja arjen ammattilaisille — selkeällä hinnalla, selkokielellä.',
+      body: 'Olen Niko, 6v+ kokemusta web-kehityksestä. Rakennan sivut, verkkokaupat ja työkalut yrittäjille, harrastajille ja arjen ammattilaisille. Selkeällä hinnalla ja selkokielellä.',
       cta1: 'Pyydä tarjous',
       cta2: 'Katso työt',
       meta: ['6+ v. kokemusta', 'Suomeksi & englanniksi', 'Hosting alk. 10€/kk']
     },
     servicesH: 'Mitä voin tehdä sinulle',
     servicesSub:
-      'Selkeät aloitushinnat. Ei piilolaskuja, ei kuukausimaksuja minulle — kerron heti, mitä saat ja mistä maksat.',
+      'Selkeät aloitushinnat. Ei piilolaskuja, ei kuukausimaksuja minulle. Kerron heti, mitä saat ja mistä maksat.',
     servicesExampleLabel: 'Esimerkki',
     services: [
       {
@@ -185,7 +185,7 @@ export const COPY: Record<Lang, Copy> = {
         sub: 'Myynti auki 24/7',
         price: '500€',
         from: 'alkaen',
-        body: 'Kaksi vaihtoehtoa: WooCommerce, jota voit itse muokata helpommin, tai räätälöity kauppa Vendure-pohjalla — nopeampi ja taipuu tarpeisiisi paremmin.',
+        body: 'Kaksi vaihtoehtoa: WooCommerce, jota voit itse muokata helpommin, tai räätälöity kauppa Vendure-pohjalla, joka on nopeampi ja taipuu tarpeisiisi paremmin.',
         bullets: ['Maksunvälitys', 'Toimituslogiikka', 'Varaston hallinta'],
         examples: [
           { label: 'woo.junttila.dev (WooCommerce)', url: 'https://woo.junttila.dev/' },
@@ -198,7 +198,7 @@ export const COPY: Record<Lang, Copy> = {
         sub: 'Räätälöity ratkaisu',
         price: 'Sovitaan',
         from: '',
-        body: 'Kun haluat enemmän kuin valmiit raamit — verkkokauppa monimutkaisella logiikalla, varausjärjestelmä, oma sovellus tai integraatiot. Jutellaan ensin tarpeesi läpi.',
+        body: 'Kun haluat enemmän kuin valmiit raamit. Esimerkiksi verkkokauppa monimutkaisella logiikalla, varausjärjestelmä, oma sovellus tai integraatiot. Jutellaan ensin tarpeesi läpi.',
         bullets: ['Räätälöinti', 'Integraatiot', 'Pidempi projekti']
       }
     ],
@@ -220,7 +220,7 @@ export const COPY: Record<Lang, Copy> = {
       ]
     },
     hostingTitle: 'Entä hosting?',
-    hostingBody: 'Sivu pitää majoittaa jonnekin. Sinulla on kaksi reittiä — kumpikin OK:',
+    hostingBody: 'Sivu pitää majoittaa jonnekin. Sinulla on kaksi reittiä, kumpikin OK:',
     hostingA: {
       title: 'Kuukausimaksu',
       price: '~10€/kk',
@@ -234,7 +234,7 @@ export const COPY: Record<Lang, Copy> = {
     workH: 'Tehtyjä projecteja',
     aboutH: 'Tervehdys, olen Niko',
     aboutBody1:
-      'Olen tehnyt web-kehitystä yli kuusi vuotta monenlaisissa projekteissa. Yksi asia on toistunut: projektit kasvavat monimutkaisemmiksi kuin niiden tarvitsisi, ja yksinkertaiset asiat selitetään vaikealla tavalla — joskus hinnan oikeuttamiseksi, joskus saadakseen homman kuulostamaan vaikeammalta kuin se on.',
+      'Olen tehnyt web-kehitystä yli kuusi vuotta monenlaisissa projekteissa. Yksi asia on toistunut: projektit kasvavat monimutkaisemmiksi kuin niiden tarvitsisi, ja yksinkertaiset asiat selitetään vaikealla tavalla, joskus hinnan oikeuttamiseksi, joskus saadakseen homman kuulostamaan vaikeammalta kuin se on.',
     aboutBody2:
       'Halusin tehdä sen toisin. Siksi teen tätä freelancena suoraan ihmisille ja pienille yrityksille: selkeä hinta, selkokielinen puhe, koodi joka toimii.',
     aboutBody3:
@@ -290,19 +290,19 @@ export const COPY: Record<Lang, Copy> = {
       }
     ],
     blogH: 'Ajatuksia ja oppaita',
-    blogSub: 'Lyhyitä juttuja siitä, miten tehdä parempaa nettiä — pienelläkin budjetilla.',
+    blogSub: 'Lyhyitä juttuja siitä, miten tehdä parempaa nettiä, pienelläkin budjetilla.',
     blog: [
       {
         slug: 'online-store-under-500',
         tag: 'Ohje',
-        t: 'Verkkokauppa alle 500 eurolla — mahdollistako?',
+        t: 'Verkkokauppa alle 500 eurolla, mahdollistako?',
         d: '5 min luku',
         date: 'Huhti 2026'
       },
       {
         slug: 'ai-tools-for-small-business',
         tag: 'Oppi',
-        t: 'AI-työkalut pienelle yrittäjälle — mistä aloittaa',
+        t: 'AI-työkalut pienelle yrittäjälle, mistä aloittaa',
         d: '8 min luku',
         date: 'Maalis 2026'
       },
@@ -332,15 +332,15 @@ export const COPY: Record<Lang, Copy> = {
     footer: '© 2026 Niko Junttila · Kokkola, Suomi',
     blogBack: '← Takaisin etusivulle',
     blogPlaceholder:
-      'Tulossa pian. Tämä juttu on vielä työn alla — palaa myöhemmin uudestaan.',
+      'Tulossa pian. Tämä juttu on vielä työn alla. Palaa myöhemmin uudestaan.',
     ai: {
       kicker: 'AI-demo',
       title: 'Pyydä tekoälyltä karkea arvio',
-      sub: 'Kerro lyhyesti projektistasi ja saat arvion sopivasta palvelutasosta. Vastaukset suoratoistuvat reaaliajassa — sama AI-integraatiotekniikka, jollaisia Niko rakentaa myös asiakkailleen.',
+      sub: 'Kerro lyhyesti projektistasi ja saat arvion sopivasta palvelutasosta. Vastaukset suoratoistuvat reaaliajassa. Sama AI-integraatiotekniikka, jollaisia Niko rakentaa myös asiakkailleen.',
       disclaimer:
         'Huom: nämä ovat AI:n karkeita arvioita. Vahvista lopullinen hinta ja aikataulu aina Nikolta.',
       intro:
-        'Hei! Olen Nikon AI-assistentti. Kuvaile projektisi muutamalla lauseella — mitä tarvitset, kenelle se on, ja onko mielessä jotain erityistä. Arvioin minkä palvelutason se vastaa.',
+        'Hei! Olen Nikon AI-assistentti. Kuvaile projektisi muutamalla lauseella. Mitä tarvitset, kenelle se on, ja onko mielessä jotain erityistä. Arvioin minkä palvelutason se vastaa.',
       placeholder: 'Esim. "Haluan yhden sivun esittelysivun pienelle leipomolle, jossa on yhteydenottolomake…"',
       send: 'Lähetä',
       sending: 'Lähetetään…',
@@ -356,7 +356,7 @@ export const COPY: Record<Lang, Copy> = {
       ]
     },
     seo: {
-      title: 'junttila.dev — freelance-kehittäjä Kokkolasta',
+      title: 'junttila.dev, freelance-kehittäjä Kokkolasta',
       description:
         'Niko Junttila, 6+ vuotta web-kehitystä. Nettisivut, verkkokaupat ja pienet työkalut yrittäjille selkeällä hinnalla, selkokielellä.'
     }
@@ -385,14 +385,14 @@ export const COPY: Record<Lang, Copy> = {
       title1: 'Websites',
       title2: 'built for you.',
       title3: '',
-      body: "I'm Niko. Six-plus years of web development. I build sites, stores and tools for small businesses, hobbyists and everyday pros — at honest prices, easy to understand.",
+      body: "I'm Niko. Six-plus years of web development. I build sites, stores and tools for small businesses, hobbyists and everyday pros. Honest prices, easy to understand.",
       cta1: 'Get a quote',
       cta2: 'See my work',
       meta: ['6+ years building', 'Finnish & English', 'Hosting from 10€/mo']
     },
     servicesH: 'What I can build for you',
     servicesSub:
-      'Clear starting prices. No hidden fees, no monthly bills to me — I tell you up-front what you get and what you pay.',
+      'Clear starting prices. No hidden fees, no monthly bills to me. I tell you up-front what you get and what you pay.',
     servicesExampleLabel: 'Example',
     services: [
       {
@@ -423,7 +423,7 @@ export const COPY: Record<Lang, Copy> = {
         sub: 'Selling 24/7',
         price: '500€',
         from: 'from',
-        body: 'Two options: WooCommerce, which you can more easily customize yourself, or a custom store backed by Vendure — faster and more tailored to your needs.',
+        body: 'Two options: WooCommerce, which you can more easily customize yourself, or a custom store backed by Vendure, which is faster and more tailored to your needs.',
         bullets: ['Payments', 'Shipping logic', 'Inventory'],
         examples: [
           { label: 'woo.junttila.dev (WooCommerce)', url: 'https://woo.junttila.dev/' },
@@ -436,7 +436,7 @@ export const COPY: Record<Lang, Copy> = {
         sub: 'Tailored build',
         price: "Let's talk",
         from: '',
-        body: 'When you need more than the templates — a webstore with complex logic, a booking system, a custom app, or deeper integrations. We map your needs together first.',
+        body: 'When you need more than the templates. A webstore with complex logic, a booking system, a custom app, or deeper integrations. We map your needs together first.',
         bullets: ['Custom build', 'Integrations', 'Larger project']
       }
     ],
@@ -474,7 +474,7 @@ export const COPY: Record<Lang, Copy> = {
       ]
     },
     hostingTitle: 'About hosting',
-    hostingBody: 'Your site has to live somewhere. Two routes — both fine:',
+    hostingBody: 'Your site has to live somewhere. Two routes, both fine:',
     hostingA: {
       title: 'Monthly',
       price: '~10€/mo',
@@ -488,7 +488,7 @@ export const COPY: Record<Lang, Copy> = {
     workH: 'Recent works',
     aboutH: "Hi, I'm Niko",
     aboutBody1:
-      "I've been doing web development for over six years across all kinds of projects. One thing keeps repeating: projects grow more complicated than they need to be, and simple things get explained in hard ways — sometimes to justify the price, sometimes just to make the work sound harder than it is.",
+      "I've been doing web development for over six years across all kinds of projects. One thing keeps repeating: projects grow more complicated than they need to be, and simple things get explained in hard ways, sometimes to justify the price, sometimes just to make the work sound harder than it is.",
     aboutBody2:
       'I wanted to do it differently. So I freelance directly for people and small businesses: clear pricing, plain language, code that actually works.',
     aboutBody3: 'Outside of work I like lifting, hiking and swimming.',
@@ -543,19 +543,19 @@ export const COPY: Record<Lang, Copy> = {
       }
     ],
     blogH: 'Notes & guides',
-    blogSub: 'Short reads on building a better internet — even on a small budget.',
+    blogSub: 'Short reads on building a better internet, even on a small budget.',
     blog: [
       {
         slug: 'online-store-under-500',
         tag: 'How-to',
-        t: 'An online store under 500€ — is it possible?',
+        t: 'An online store under 500€, is it possible?',
         d: '5 min read',
         date: 'Apr 2026'
       },
       {
         slug: 'ai-tools-for-small-business',
         tag: 'Notes',
-        t: 'AI tools for small business owners — where to start',
+        t: 'AI tools for small business owners, where to start',
         d: '8 min read',
         date: 'Mar 2026'
       },
@@ -584,15 +584,15 @@ export const COPY: Record<Lang, Copy> = {
     },
     footer: '© 2026 Niko Junttila · Kokkola, Finland',
     blogBack: '← Back to home',
-    blogPlaceholder: "Coming soon. This post is still being written — check back later.",
+    blogPlaceholder: "Coming soon. This post is still being written. Check back later.",
     ai: {
       kicker: 'AI demo',
       title: 'Ask the AI for a rough estimate',
-      sub: 'Describe your project briefly and the AI suggests which service tier fits. Replies stream in real time — the same kind of AI integration Niko builds for clients.',
+      sub: 'Describe your project briefly and the AI suggests which service tier fits. Replies stream in real time. The same kind of AI integration Niko builds for clients.',
       disclaimer:
         "Heads up: these are AI estimates. Always confirm the final price and timeline with Niko.",
       intro:
-        "Hi! I'm Niko's AI assistant. Describe your project in a few sentences — what you need, who it's for, and any specifics — and I'll suggest which service tier fits.",
+        "Hi! I'm Niko's AI assistant. Describe your project in a few sentences. What you need, who it's for, and any specifics. Then I'll suggest which service tier fits.",
       placeholder: 'e.g. "I want a one-page landing site for a small bakery with a contact form…"',
       send: 'Send',
       sending: 'Sending…',
@@ -608,9 +608,9 @@ export const COPY: Record<Lang, Copy> = {
       ]
     },
     seo: {
-      title: 'junttila.dev — freelance web developer in Kokkola',
+      title: 'junttila.dev, freelance web developer in Kokkola',
       description:
-        "Niko Junttila, 6+ years of web development. Websites, online stores and small tools for small businesses — at honest prices, easy to understand."
+        "Niko Junttila, 6+ years of web development. Websites, online stores and small tools for small businesses. Honest prices, easy to understand."
     }
   }
 };
@@ -637,8 +637,8 @@ export const PORTFOLIO: PortfolioItem[] = [
     tag: { fi: 'Portfolio & galleria', en: 'Portfolio & gallery' },
     year: '2026',
     desc: {
-      fi: 'Taiteilijan tilaussivu — portfolio, galleria ja tilauslomake.',
-      en: 'Artist commission site — portfolio, gallery and order form.'
+      fi: 'Taiteilijan tilaussivu. Portfolio, galleria ja tilauslomake.',
+      en: 'Artist commission site. Portfolio, gallery and order form.'
     },
     palette: ['#F4B98A', '#D97D4B', '#3A2418', '#FCEDD8']
   },
@@ -651,8 +651,8 @@ export const PORTFOLIO: PortfolioItem[] = [
     tag: { fi: 'Yrityssivu', en: 'Business site' },
     year: '2025',
     desc: {
-      fi: 'Verhoiluyrityksen sivu — galleria, palvelut, yhteystiedot.',
-      en: 'Upholstery business site — gallery, services, contact info.'
+      fi: 'Verhoiluyrityksen sivu. Galleria, palvelut, yhteystiedot.',
+      en: 'Upholstery business site. Gallery, services, contact info.'
     },
     palette: ['#7A4B2A', '#C99A6E', '#2A1810', '#EFE2D0']
   },
@@ -693,8 +693,8 @@ export const PORTFOLIO: PortfolioItem[] = [
     tag: { fi: 'Oma työkalu', en: 'My own tool' },
     year: '2026',
     desc: {
-      fi: 'Työkalu JSON-käännöstiedostojen hallintaan — visuaalinen editori ja puuttuvien käännösten seuranta.',
-      en: 'A tool for managing JSON translation files — visual editor with missing-translation tracking.'
+      fi: 'Työkalu JSON-käännöstiedostojen hallintaan. Visuaalinen editori ja puuttuvien käännösten seuranta.',
+      en: 'A tool for managing JSON translation files. Visual editor with missing-translation tracking.'
     },
     palette: ['#C4B5FD', '#7C3AED', '#1E1B2E', '#F0EBFA']
   },
@@ -735,8 +735,8 @@ export const PORTFOLIO: PortfolioItem[] = [
     tag: { fi: 'Henkilökohtainen sivu', en: 'Personal site' },
     year: '2022',
     desc: {
-      fi: 'Aiempi henkilökohtainen sivu — CV, kuntosaliharjoittelun seuranta ja reseptikokoelma.',
-      en: 'Older personal site — CV, gym training tracker and recipe collection.'
+      fi: 'Aiempi henkilökohtainen sivu. CV, kuntosaliharjoittelun seuranta ja reseptikokoelma.',
+      en: 'Older personal site. CV, gym training tracker and recipe collection.'
     },
     palette: ['#E74C3C', '#7A4CC0', '#1A1530', '#F4E9DA']
   }
