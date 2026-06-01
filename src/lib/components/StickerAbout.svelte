@@ -82,26 +82,15 @@
 			style:overflow="hidden"
 			style:transform="rotate(2deg)"
 		>
-			<svg viewBox="0 0 280 320" style="position:absolute;inset:0;width:100%;height:100%">
-				<circle cx="140" cy="120" r="55" fill={th.paper} stroke={th.ink} stroke-width="3" />
-				<path
-					d="M75 320 L75 230 Q75 180 140 180 Q205 180 205 230 L205 320 Z"
-					fill={th.paper}
-					stroke={th.ink}
-					stroke-width="3"
-				/>
-				<circle cx="125" cy="115" r="4" fill={th.ink} />
-				<circle cx="155" cy="115" r="4" fill={th.ink} />
-				<path
-					d="M125 140 Q140 152 155 140"
-					stroke={th.ink}
-					stroke-width="3"
-					fill="none"
-					stroke-linecap="round"
-				/>
-				<circle cx="115" cy="135" r="1.5" fill={th.coral} />
-				<circle cx="165" cy="135" r="1.5" fill={th.coral} />
-			</svg>
+			<img
+				src="/niko.webp"
+				alt="Niko"
+				style:position="absolute"
+				style:inset="0"
+				style:width="100%"
+				style:height="100%"
+				style:object-fit="cover"
+			/>
 		</div>
 		<div
 			class="jd-about-stickers"
