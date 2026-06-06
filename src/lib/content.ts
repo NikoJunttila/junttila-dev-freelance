@@ -730,7 +730,7 @@ export const PORTFOLIO: PortfolioItem[] = [
     id: 'oldcv',
     name: 'junttila.dev (legacy)',
     url: 'junttila.dev',
-    href: 'https://junttila.dev/',
+    href: 'https://gym.junttila.dev/',
     image: ['/old_cv_cooking.png', '/old_cv_gym_tracking.png'],
     tag: { fi: 'Henkilökohtainen sivu', en: 'Personal site' },
     year: '2022',
